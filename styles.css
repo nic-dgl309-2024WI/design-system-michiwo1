@@ -6,3 +6,10 @@
   --clr-light: lightgrey;
   --clr-white: white;
 }
+
+/* Box Sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
