@@ -1,0 +1,22 @@
+/* ======== Header ======== */
+/* layout class for header */
+.l-header {}
+
+/* component class for navigation */
+.c-nav {}
+
+/* element class for list in navigation component */
+.c-nav__list {}
+
+/* ======== Sidebar ======== */
+/* layout class for sidebar */
+.l-sidebar {}
+
+/* element class for section in sidebar component */
+.c-sidebar__section {}
+
+/* element class for title in section component */
+.c-section__title {}
+
+/* element class for list in section component */
+.c-section__list {}
