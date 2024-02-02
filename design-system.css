@@ -1,12 +1,22 @@
 /* ======== Header ======== */
 /* layout class for header */
-.l-header {}
+.l-header {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* component class for navigation */
 .c-nav {}
 
 /* element class for list in navigation component */
-.c-nav__list {}
+.c-nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.u-link--none-underline {
+  text-decoration: none;
+}
 
 /* ======== Sidebar ======== */
 /* layout class for sidebar */
