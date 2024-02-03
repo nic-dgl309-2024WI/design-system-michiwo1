@@ -23,12 +23,12 @@
 
 /* hover effect for links without underline */
 .u-link--none-underline:hover {
-  color: #ff6347;
+  color: var(--clr-accent);
 }
 
 /* class to highlight the active page link */
 .is-active-page {
-  color: pink;
+  color: var(--clr-additional-accent);
 }
 
 /* hide the close icon by default in mobile view */
@@ -70,7 +70,7 @@
 
   /* Maintain hover effect for links in desktop */
   .u-link--none-underline:hover {
-    color: #ff6347;
+    color: var(--clr-accent);
   }
 
   /* Hide hamburger and close icons in desktop */
