@@ -65,6 +65,10 @@
     display: none;
   }
 
+  .u-link--none-underline:hover {
+    color: #ff6347;
+  }
+
   /* ======== Sidebar - Desktop ======== */
   .l-sidebar {
     display: block;
