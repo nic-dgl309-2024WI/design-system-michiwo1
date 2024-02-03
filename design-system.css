@@ -79,6 +79,20 @@ th {
   background-color: var(--clr-primary-bg);
 }
 
+/* Secondary  */
+.u-color-table--secondary-background-color {
+  background-color: var(--clr-secondary-bg);
+}
+
+.u-color-table--secondary-text-color {
+  color: var(--clr-secondary-text);
+}
+
+.u-color-table--secondary-text-and-background-color {
+  color: var(--clr-secondary-text);
+  background-color: var(--clr-secondary-bg);
+}
+
 /* ======== Media Queries for Large devices (desktops, 1200px and up) ======== */
 @media only screen and (min-width: 1200px) {
 
