@@ -65,6 +65,20 @@ th {
   padding: 10px;
 }
 
+/* Primary  */
+.u-color-table--primary-background-color {
+  background-color: var(--clr-primary-bg);
+}
+
+.u-color-table--primary-text-color {
+  color: var(--clr-primary-text);
+}
+
+.u-color-table--primary-text-and-background-color {
+  color: var(--clr-primary-text);
+  background-color: var(--clr-primary-bg);
+}
+
 /* ======== Media Queries for Large devices (desktops, 1200px and up) ======== */
 @media only screen and (min-width: 1200px) {
 
