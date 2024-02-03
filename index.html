@@ -15,16 +15,17 @@
   <!-- Header navigation -->
   <header class="l-header">
     <h1><a href="index.html" class="u-link--none-underline">Design System</a></h1>
-    <a class="c-toggle__icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    <i class="fa fa-bars c-toggle__icon" id="hamburger-menu-icon" aria-hidden="true"></i>
+    <i class="fa fa-times c-toggle__icon" id="close-icon" aria-hidden="true"></i>
     <nav class="c-nav">
       <ul class="c-nav__list">
         <li><a href="about-me.html" class="u-link--none-underline">About Me</a></li>
-        <li><a href="#" class="u-link--none-underline is-active">Demo Site</a></li>
+        <li><a href="#" class="u-link--none-underline is-active-page">Demo Site</a></li>
       </ul>
     </nav>
   </header>
   <!-- Sidebar navigation -->
-  <aside class="l-sidebar">
+  <aside class="l-sidebar" id="sidebar">
     <!-- Use of h1 in aside, but will change if more content is added -->
     <section class="c-sidebar__section">
       <h1 class="u-section__title--primary">Branding</h1>
