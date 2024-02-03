@@ -93,6 +93,16 @@ th {
   background-color: var(--clr-secondary-bg);
 }
 
+/* Accent  */
+.u-color-table--accent-color {
+  color: var(--clr-accent);
+}
+
+.u-color-table--primary-background-and-accent-color {
+  background-color: var(--clr-primary-bg);
+  color: var(--clr-accent);
+}
+
 /* ======== Media Queries for Large devices (desktops, 1200px and up) ======== */
 @media only screen and (min-width: 1200px) {
 
