@@ -28,7 +28,7 @@
   color: pink;
 }
 
-.c-close__icon {
+#close-icon {
   display: none;
 }
 
@@ -82,16 +82,13 @@
     display: block;
   }
 
-  .c-toggle__icon {
-    display: none;
-  }
-
-  .c-close__icon {
-    display: none;
-  }
-
   .u-link--none-underline:hover {
     color: #ff6347;
+  }
+
+  #hamburger-menu-icon,
+  #close-icon {
+    display: none;
   }
 
   /* ======== Sidebar - Desktop ======== */
