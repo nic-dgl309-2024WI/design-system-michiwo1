@@ -20,6 +20,10 @@
   text-decoration: none;
 }
 
+.is-active {
+  color: pink;
+}
+
 /* ======== Sidebar - Mobile ======== */
 /* layout class for sidebar */
 .l-sidebar {
