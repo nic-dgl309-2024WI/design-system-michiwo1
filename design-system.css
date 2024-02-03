@@ -46,27 +46,6 @@
 /* Empty class for sidebar sections, potentially for future styling */
 .c-sidebar__section {}
 
-/* utility classes for section titles with different priority colors */
-.u-section__title--primary {
-  color: var(--clr-primary);
-}
-
-.u-section__title--secondary {
-  color: var(--clr-secondary);
-}
-
-.u-section__title--accent {
-  color: var(--clr-accent);
-}
-
-.u-section__title--light {
-  color: var(--clr-light);
-}
-
-.u-section__title--white {
-  color: var(--clr-white);
-}
-
 /* Empty class for section lists, potentially for future styling */
 .c-section__list {}
 
