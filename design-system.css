@@ -54,6 +54,17 @@
   display: block;
 }
 
+/* ======== Swatches - Mobile ======== */
+.c-color-table {
+  border-collapse: collapse;
+}
+
+.c-color-table td,
+th {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
 /* ======== Media Queries for Large devices (desktops, 1200px and up) ======== */
 @media only screen and (min-width: 1200px) {
 
