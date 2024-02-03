@@ -48,3 +48,6 @@
 
 /* element class for list in section component */
 .c-section__list {}
+
+/* Large devices (desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
