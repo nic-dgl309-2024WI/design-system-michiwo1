@@ -16,18 +16,22 @@
   list-style: none;
 }
 
+/* utility class to remove underline from links */
 .u-link--none-underline {
   text-decoration: none;
 }
 
+/* hover effect for links without underline */
 .u-link--none-underline:hover {
   color: #ff6347;
 }
 
+/* class to highlight the active page link */
 .is-active-page {
   color: pink;
 }
 
+/* hide the close icon by default in mobile view */
 #close-icon {
   display: none;
 }
@@ -39,9 +43,10 @@
 }
 
 /* element class for section in sidebar component */
+/* Empty class for sidebar sections, potentially for future styling */
 .c-sidebar__section {}
 
-/* element class for section in title utilities */
+/* utility classes for section titles with different priority colors */
 .u-section__title--primary {
   color: var(--clr-primary);
 }
@@ -62,36 +67,40 @@
   color: var(--clr-white);
 }
 
-/* element class for list in section component */
+/* Empty class for section lists, potentially for future styling */
 .c-section__list {}
 
+/* Display sidebar as block when it's active */
 .l-sidebar.is-active {
   display: block;
 }
 
-/* Large devices (desktops, 1200px and up) */
+/* ======== Media Queries for Large devices (desktops, 1200px and up) ======== */
 @media only screen and (min-width: 1200px) {
 
-  /* ======== Header - Desktop ======== */
+  /* Adjust header layout for desktop */
   .l-header {
     display: flex;
     justify-content: space-between;
   }
 
+  /* Show navigation component in desktop */
   .c-nav {
     display: block;
   }
 
+  /* Maintain hover effect for links in desktop */
   .u-link--none-underline:hover {
     color: #ff6347;
   }
 
+  /* Hide hamburger and close icons in desktop */
   #hamburger-menu-icon,
   #close-icon {
     display: none;
   }
 
-  /* ======== Sidebar - Desktop ======== */
+  /* Display sidebar by default in desktop */
   .l-sidebar {
     display: block;
   }
