@@ -1,4 +1,4 @@
-/* ======== Header ======== */
+/* ======== Header - Mobile ======== */
 /* layout class for header */
 .l-header {
   display: flex;
@@ -6,7 +6,9 @@
 }
 
 /* component class for navigation */
-.c-nav {}
+.c-nav {
+  display: none;
+}
 
 /* element class for list in navigation component */
 .c-nav__list {
@@ -18,9 +20,11 @@
   text-decoration: none;
 }
 
-/* ======== Sidebar ======== */
+/* ======== Sidebar - Mobile ======== */
 /* layout class for sidebar */
-.l-sidebar {}
+.l-sidebar {
+  display: none;
+}
 
 /* element class for section in sidebar component */
 .c-sidebar__section {}
@@ -50,4 +54,20 @@
 .c-section__list {}
 
 /* Large devices (desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+
+  /* ======== Header - Desktop ======== */
+  .c-nav {
+    display: block;
+  }
+
+  .c-toggle__icon {
+    display: none;
+  }
+
+  /* ======== Sidebar - Desktop ======== */
+  .l-sidebar {
+    display: block;
+  }
+
+}
