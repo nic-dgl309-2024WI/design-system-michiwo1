@@ -1,10 +1,11 @@
 /* Root color definitions */
 :root {
-  --clr-primary: black;
-  --clr-secondary: darkgrey;
-  --clr-accent: darkgrey;
-  --clr-light: lightgrey;
-  --clr-white: white;
+  --clr-primary-text: #404040;
+  --clr-primary-bg: #F5F5F5;
+  --clr-accent: #005C4E;
+  --clr-secondary-bg: #FFFFFF;
+  --clr-secondary-text: #2C6330;
+  --clr-additional-accent: #13575D;
 }
 
 /* Box Sizing */
