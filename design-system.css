@@ -103,6 +103,16 @@ th {
   color: var(--clr-accent);
 }
 
+/* Additional Accent  */
+.u-color-table--additional-accent-color {
+  color: var(--clr-additional-accent);
+}
+
+.u-color-table--secondary-background-and-additional-accent-color {
+  background-color: var(--clr-secondary-bg);
+  color: var(--clr-additional-accent);
+}
+
 /* ======== Media Queries for Large devices (desktops, 1200px and up) ======== */
 @media only screen and (min-width: 1200px) {
 
