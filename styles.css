@@ -60,3 +60,20 @@ ol {
 .u-font-family-body {
   font-family: var(--font-family-body);
 }
+
+/* Utility Classes for Font Size */
+.u-font-size-h1 {
+  font-size: var(--font-size-h1);
+}
+
+.u-font-size-h2 {
+  font-size: var(--font-size-h2);
+}
+
+.u-font-size-h3 {
+  font-size: var(--font-size-h3);
+}
+
+.u-font-size-body {
+  font-size: var(--font-size-body);
+}
