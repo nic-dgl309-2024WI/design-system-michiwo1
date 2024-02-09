@@ -77,3 +77,20 @@ ol {
 .u-font-size-body {
   font-size: var(--font-size-body);
 }
+
+/* Utility Classes for Font Weight */
+.font-weight-bold {
+  font-weight: var(--font-weight-bold);
+}
+
+.font-weight-semibold {
+  font-weight: var(--font-weight-semibold);
+}
+
+.font-weight-medium {
+  font-weight: var(--font-weight-medium);
+}
+
+.font-weight-regular {
+  font-weight: var(--font-weight-regular);
+}
