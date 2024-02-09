@@ -1,11 +1,16 @@
 /* Root color definitions */
 :root {
+  /* primary, secondary, and accent colors */
   --clr-primary-text: #404040;
   --clr-primary-bg: #F5F5F5;
   --clr-accent: #941600;
   --clr-secondary-bg: #FFFFFF;
   --clr-secondary-text: #2C6330;
   --clr-additional-accent: #13575D;
+
+  /* Font families */
+  --font-family-heading: 'Roboto', sans-serif;
+  --font-family-body: 'Open Sans', sans-serif;
 }
 
 /* Box Sizing */
