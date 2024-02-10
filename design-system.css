@@ -1,3 +1,20 @@
+/* Root color definitions */
+:root {
+  /* Font families */
+  --font-family-heading-h1: 'Playfair Display', serif;
+  --font-family-heading-h2: 'Lato', sans-serif;
+  --font-family-body: 'Roboto', sans-serif;
+
+  /* Font sizes */
+  --font-size-h1: 32px;
+  --font-size-h2: 24px;
+  --font-size-body: 16px;
+
+  /* Font weights */
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+}
+
 /* ======== Header - Mobile ======== */
 /* layout class for header */
 .l-header-mobile {
