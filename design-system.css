@@ -177,8 +177,17 @@ th {
     margin: 1rem;
   }
 
-  .u-margin-8 {
-    margin: 8rem;
+  .u-margin-4 {
+    margin: 4rem;
+  }
+
+  /* Utility Classes for Padding */
+  .u-padding-1 {
+    padding: 1rem;
+  }
+
+  .u-padding-4 {
+    padding: 4rem;
   }
 
   /* Adjust header layout for desktop */
