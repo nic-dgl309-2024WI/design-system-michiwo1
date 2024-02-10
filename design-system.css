@@ -172,6 +172,15 @@ th {
 /* ======== Media Queries for Large devices (desktops, 1200px and up) ======== */
 @media only screen and (min-width: 1200px) {
 
+  /* Utility Classes for Margin */
+  .u-margin-1 {
+    margin: 1rem;
+  }
+
+  .u-margin-8 {
+    margin: 8rem;
+  }
+
   /* Adjust header layout for desktop */
   .l-header {
     display: flex;
