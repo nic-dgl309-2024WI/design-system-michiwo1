@@ -94,3 +94,20 @@ ol {
 .u-font-weight-regular {
   font-weight: var(--font-weight-regular);
 }
+
+/* Utility Classes for Colors */
+.u-text-primary {
+  color: var(--clr-primary-text);
+}
+
+.u-bg-primary {
+  background-color: var(--clr-primary-bg);
+}
+
+.u-text-secondary {
+  color: var(--clr-secondary-text);
+}
+
+.u-bg-secondary {
+  background-color: var(--clr-secondary-bg);
+}
