@@ -50,6 +50,10 @@
   font-weight: var(--font-weight-semibold);
 }
 
+.u-text-center {
+  text-align: center;
+}
+
 /* ======== Header - Mobile ======== */
 /* layout class for header */
 .l-header-mobile {
