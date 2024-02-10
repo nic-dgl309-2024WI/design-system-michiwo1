@@ -15,6 +15,41 @@
   --font-weight-semibold: 600;
 }
 
+/* Utility Classes for Font Family */
+.u-font-family-heading-h1 {
+  font-family: var(--font-family-heading-h1);
+}
+
+.u-font-family-heading-h2 {
+  font-family: var(--font-family-heading-h2);
+}
+
+.u-font-family-body {
+  font-family: var(--font-family-body);
+}
+
+/* Utility Classes for Font Size */
+.u-font-size-h1 {
+  font-size: var(--font-size-h1);
+}
+
+.u-font-size-h2 {
+  font-size: var(--font-size-h2);
+}
+
+.u-font-size-body {
+  font-size: var(--font-size-body);
+}
+
+/* Utility Classes for Font Weight */
+.u-font-weight-bold {
+  font-weight: var(--font-weight-bold);
+}
+
+.u-font-weight-semibold {
+  font-weight: var(--font-weight-semibold);
+}
+
 /* ======== Header - Mobile ======== */
 /* layout class for header */
 .l-header-mobile {
