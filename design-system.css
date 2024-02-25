@@ -1,8 +1,7 @@
 /* Root color definitions */
 :root {
   /* Font families */
-  --font-family-heading-h1: 'Playfair Display', serif;
-  --font-family-heading-h2: 'Lato', sans-serif;
+  --font-family-heading: 'Playfair Display', serif;
   --font-family-body: 'Roboto', sans-serif;
 
   /* Font sizes */
@@ -33,12 +32,8 @@
 }
 
 /* Utility Classes for Font Family */
-.u-font-family-heading-h1 {
-  font-family: var(--font-family-heading-h1);
-}
-
-.u-font-family-heading-h2 {
-  font-family: var(--font-family-heading-h2);
+.u-font-family-heading {
+  font-family: var(--font-family-heading);
 }
 
 .u-font-family-body {
