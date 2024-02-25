@@ -12,6 +12,10 @@
   /* Font weights */
   --font-weight-bold: 700;
   --font-weight-semibold: 600;
+
+  /* Letter spacings */
+  --letter-spacing-heading: 2px;
+  --letter-spacing-body: 1px;
 }
 
 /* Utility Classes for Colors */
@@ -60,6 +64,15 @@
 
 .u-font-weight-semibold {
   font-weight: var(--font-weight-semibold);
+}
+
+/* Utility Classes for Letter Spacing */
+.u-letter-spacing-heading {
+  letter-spacing: var(--letter-spacing-heading);
+}
+
+.u-letter-spacing-body {
+  letter-spacing: var(--letter-spacing-body);
 }
 
 .u-text-center {
