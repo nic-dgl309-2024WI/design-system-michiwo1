@@ -9,8 +9,8 @@
   --clr-additional-accent: #13575D;
 
   /* Font families */
-  --font-family-heading: 'Roboto', sans-serif;
-  --font-family-body: 'Open Sans', sans-serif;
+  --font-family-heading: 'Playfair Display', serif;
+  --font-family-body: 'Roboto', sans-serif;
 
   /* Font sizes */
   --font-size-h1: 32px;
@@ -23,6 +23,10 @@
   --font-weight-semibold: 600;
   --font-weight-medium: 500;
   --font-weight-regular: 400;
+
+  /* Letter spacings */
+  --letter-spacing-heading: 2px;
+  --letter-spacing-body: 1px;
 }
 
 /* Box Sizing */
@@ -93,4 +97,56 @@ ol {
 
 .u-font-weight-regular {
   font-weight: var(--font-weight-regular);
+}
+
+/* Utility Classes for Colors */
+.u-bg-primary {
+  background-color: var(--clr-primary-bg);
+}
+
+.u-bg-secondary {
+  background-color: var(--clr-secondary-bg);
+}
+
+.u-text-accent {
+  color: var(--clr-accent);
+}
+
+.u-text-additional-accent {
+  color: var(--clr-additional-accent);
+}
+
+/* Utility Classes for Letter Spacing */
+.u-letter-spacing-heading {
+  letter-spacing: var(--letter-spacing-heading);
+}
+
+.u-letter-spacing-body {
+  letter-spacing: var(--letter-spacing-body);
+}
+
+/* utility class to remove underline from links */
+.u-link--none-underline {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1200px) {
+
+  /* Utility Classes for Margin */
+  .u-margin-1 {
+    margin: 1rem;
+  }
+
+  .u-margin-4 {
+    margin: 4rem;
+  }
+
+  /* Utility Classes for Padding */
+  .u-padding-1 {
+    padding: 1rem;
+  }
+
+  .u-padding-4 {
+    padding: 4rem;
+  }
 }
