@@ -401,6 +401,23 @@ ol {
   align-items: center;
 }
 
+/* Grid Layout Classes */
+.l-grid {
+  display: grid;
+}
+
+.l-grid-columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.l-grid-columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.l-grid-gap-1 {
+  gap: 1rem;
+}
+
 @media only screen and (min-width: 1200px) {
 
   /* Utility Classes for Margin */
