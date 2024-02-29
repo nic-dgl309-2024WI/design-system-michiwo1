@@ -435,7 +435,42 @@ ol {
 /* Max-width for mobile devices */
 .container-mobile-max {
   max-width: 100%;
-  /* Ensures container does not exceed the screen width on mobile */
+}
+
+/* Utility class for managing min and max content width dynamically */
+.container-min-max {
+  width: 80%;
+  min-width: 100px;
+  max-width: 1000px;
+  margin: 0 auto;
+  border: solid hotpink;
+  text-align: center;
+}
+
+/* Fixed height container */
+.container-fixed-height {
+  height: 100px;
+  max-width: 300px;
+  border: solid;
+}
+
+/* Full height container */
+.container-full-height {
+  min-height: 100%;
+  border: solid;
+}
+
+/* Footer always on the bottom */
+.footer-bottom {
+  border: solid hotpink;
+  padding: 8px;
+  margin-top: auto;
+}
+
+/* Apply this class to the parent wrapper when using .footer-bottom */
+.wrapper-flex {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Media query for desktop */
