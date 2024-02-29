@@ -418,6 +418,15 @@ ol {
   gap: 1rem;
 }
 
+/* Base styling for all containers */
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
 @media only screen and (min-width: 1200px) {
 
   /* Utility Classes for Margin */
