@@ -380,6 +380,27 @@ ol {
   padding-bottom: 2rem;
 }
 
+/* Flexbox Layout Classes */
+.l-flex {
+  display: flex;
+}
+
+.l-flex-column {
+  flex-direction: column;
+}
+
+.l-flex-row {
+  flex-direction: row;
+}
+
+.l-justify-center {
+  justify-content: center;
+}
+
+.l-align-center {
+  align-items: center;
+}
+
 @media only screen and (min-width: 1200px) {
 
   /* Utility Classes for Margin */
