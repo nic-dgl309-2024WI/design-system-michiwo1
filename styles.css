@@ -255,6 +255,131 @@ ol {
   margin-bottom: 2rem;
 }
 
+/* Padding */
+.l-p-1 {
+  padding: 1rem;
+}
+
+/* 16px */
+.l-pt-1 {
+  padding-top: 1rem;
+}
+
+.l-pb-1 {
+  padding-bottom: 1rem;
+}
+
+.l-pl-1 {
+  padding-left: 1rem;
+}
+
+.l-pr-1 {
+  padding-right: 1rem;
+}
+
+.l-px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.l-py-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.l-p-125 {
+  padding: 1.25rem;
+}
+
+/* 20px */
+.l-pt-125 {
+  padding-top: 1.25rem;
+}
+
+.l-pb-125 {
+  padding-bottom: 1.25rem;
+}
+
+.l-pl-125 {
+  padding-left: 1.25rem;
+}
+
+.l-pr-125 {
+  padding-right: 1.25rem;
+}
+
+.l-px-125 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.l-py-125 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.l-p-15 {
+  padding: 1.5rem;
+}
+
+/* 24px */
+.l-pt-15 {
+  padding-top: 1.5rem;
+}
+
+.l-pb-15 {
+  padding-bottom: 1.5rem;
+}
+
+.l-pl-15 {
+  padding-left: 1.5rem;
+}
+
+.l-pr-15 {
+  padding-right: 1.5rem;
+}
+
+.l-px-15 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.l-py-15 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.l-p-2 {
+  padding: 2rem;
+}
+
+/* 32px */
+.l-pt-2 {
+  padding-top: 2rem;
+}
+
+.l-pb-2 {
+  padding-bottom: 2rem;
+}
+
+.l-pl-2 {
+  padding-left: 2rem;
+}
+
+.l-pr-2 {
+  padding-right: 2rem;
+}
+
+.l-px-2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.l-py-2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 @media only screen and (min-width: 1200px) {
 
   /* Utility Classes for Margin */
