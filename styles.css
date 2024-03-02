@@ -233,6 +233,10 @@ ol {
   margin-top: 2rem;
 }
 
+.l-mt-6 {
+  margin-top: 6rem;
+}
+
 .l-mb-2 {
   margin-bottom: 2rem;
 }
@@ -418,6 +422,14 @@ ol {
   gap: 1rem;
 }
 
+/* Position Layout Classes */
+.l-position-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 /* Base styling for all containers */
 .container {
   padding-left: 1rem;
@@ -475,6 +487,14 @@ ol {
 
 /* Media query for desktop */
 @media only screen and (min-width: 1200px) {
+
+  /* Position Layout Classes */
+  .l-position-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
 
   /* Utility Classes for Margin */
   .u-margin-1 {
