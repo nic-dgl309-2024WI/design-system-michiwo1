@@ -5,189 +5,189 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Demo site</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" type="text/css" href="design-system.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <!-- Font-awesome 4.7.0 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- Google font -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif&family=Poppins:wght@400;500&family=Roboto&family=Roboto+Condensed&family=Roboto+Slab&family=Rubik&family=Source+Code+Pro&family=Ubuntu:wght@400;700&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&family=Roboto&display=swap"
     rel="stylesheet">
 </head>
 
-<body class="u-font-family-body">
+<body>
   <!-- Header navigation -->
-  <header class="l-header">
+  <header class="l-header l-position-fixed">
     <div class="l-header-mobile">
-      <h1 class="u-font-family-heading u-font-size-h1 u-font-weight-bold"><a href="index.html"
-          class="u-link--none-underline">Design System</a></h1>
+      <h1><a href="index.html" class="u-link--none-underline">Design System</a></h1>
       <i class="fa fa-bars" id="hamburger-menu-icon" aria-hidden="true"></i>
       <i class="fa fa-times" id="close-icon" aria-hidden="true"></i>
     </div>
-    <nav class="c-nav active" id="nav">
+    <nav class="c-nav" id="nav">
       <ul class="c-nav__list">
         <li><a href="about-me.html" class="u-link--none-underline">About Me</a></li>
         <li><a href="index.html" class="u-link--none-underline">Demo Site</a></li>
       </ul>
     </nav>
   </header>
-  <!-- Sidebar navigation -->
-  <aside class="l-sidebar active" id="sidebar">
-    <section class="c-sidebar__section">
-      <h1 class="u-font-family-heading u-font-size-h2 u-font-weight-semibold">Branding</h1>
-      <ul class="c-section__list u-font-family-body u-font-size-body u-font-weight-regular">
-        <li><a href="colors.html" class="u-link--none-underline is-active-page">01 Colors</a></li>
-        <li><a href="typography.html" class="u-link--none-underline">02 Typography</a></li>
-        <li>03 Logo</li>
-      </ul>
-    </section>
+  <div class="l-flex-or-block l-mt-6 container-mobile-max">
+    <!-- Sidebar navigation -->
+    <aside class="l-sidebar l-p-1" id="sidebar">
+      <!-- Use of h1 in aside, but will change if more content is added -->
+      <section class="c-sidebar__section">
+        <h1>Branding</h1>
+        <ul class="c-section__list u-list-style-type-none">
+          <li><a href="colors.html" class="u-link--none-underline">01 Colors</a></li>
+          <li><a href="typography.html" class="u-link--none-underline is-active-page">02 Typography</a></li>
+          <li>03 Logo</li>
+        </ul>
+      </section>
 
-    <section class="c-sidebar__section">
-      <h2 class="u-font-family-heading u-font-size-h2 u-font-weight-semibold">Utilities</h2>
-      <ul class="c-section__list u-font-family-body u-font-size-body u-font-weight-regular">
-        <li>04 Spacing</li>
-        <li>05 Containers</li>
-        <li>06 Images</li>
-        <li>07 Interactive</li>
-        <li>08 Feedback</li>
-      </ul>
-    </section>
+      <section class="c-sidebar__section">
+        <h1>Utilities</h1>
+        <ul class="c-section__list u-list-style-type-none">
+          <li>04 Spacing</li>
+          <li>05 Containers</li>
+          <li>06 Images</li>
+          <li>07 Interactive</li>
+          <li>08 Feedback</li>
+        </ul>
+      </section>
 
-    <section class="c-sidebar__section">
-      <h2 class="u-font-family-heading u-font-size-h2 u-font-weight-semibold">Navigation</h2>
-      <ul class="c-section__list u-font-family-body u-font-size-body u-font-weight-regular">
-        <li>09 Navbars</li>
-        <li>10 Breadcrumbs</li>
-        <li>11 Pagination</li>
-      </ul>
-    </section>
+      <section class="c-sidebar__section">
+        <h1>Navigation</h1>
+        <ul class="c-section__list u-list-style-type-none">
+          <li>09 Navbars</li>
+          <li>10 Breadcrumbs</li>
+          <li>11 Pagination</li>
+        </ul>
+      </section>
 
-    <section class="c-sidebar__section">
-      <h2 class="u-font-family-heading u-font-size-h2 u-font-weight-semibold">Blocks</h2>
-      <ul class="c-section__list u-font-family-body u-font-size-body u-font-weight-regular">
-        <li>12 Hero</li>
-        <li>13 Carousel</li>
-        <li>14 Slats</li>
-        <li>15 Footer</li>
-      </ul>
-    </section>
+      <section class="c-sidebar__section">
+        <h1>Blocks</h1>
+        <ul class="c-section__list u-list-style-type-none">
+          <li>12 Hero</li>
+          <li>13 Carousel</li>
+          <li>14 Slats</li>
+          <li>15 Footer</li>
+        </ul>
+      </section>
 
-    <section class="c-sidebar__section">
-      <h2 class="u-font-family-heading u-font-size-h2 u-font-weight-semibold">Components</h2>
-      <ul class="c-section__list u-font-family-body u-font-size-body u-font-weight-regular">
-        <li>16 Cards</li>
-        <li>17 Forms</li>
-        <li>18 Accordion</li>
-        <li>19 Lists</li>
-      </ul>
-    </section>
-  </aside>
+      <section class="c-sidebar__section">
+        <h1>Components</h1>
+        <ul class="c-section__list u-list-style-type-none">
+          <li>16 Cards</li>
+          <li>17 Forms</li>
+          <li>18 Accordion</li>
+          <li>19 Lists</li>
+        </ul>
+      </section>
+    </aside>
 
-  <!-- Main content area -->
-  <main>
-    <!-- Primary Colors -->
-    <section>
-      <h2 class="u-font-family-heading u-font-size-h2 u-font-weight-medium">Primary Colors</h2>
-      <table class="c-color-table">
-        <tr>
-          <th>Class Name</th>
-          <th>Hex Code</th>
-          <th>Uses</th>
-          <th>Colour Combinations</th>
-          <th>Colour Contrast Ratio</th>
-        </tr>
-        <tr>
-          <td>bg-primary</td>
-          <td class="u-color-table--primary-background-color">#F5F5F5</td>
-          <td>Background</td>
-          <td class="u-color-table--primary-text-and-background-color">Background and Text</td>
-          <td>9.51:1</td>
-        </tr>
-        <tr>
-          <td>text-primary</td>
-          <td class="u-color-table--primary-text-color">#404040</td>
-          <td>Headings, Body Text</td>
-          <td class="u-color-table--primary-text-and-background-color">Background and Text</td>
-          <td>9.51:1</td>
-        </tr>
-      </table>
-    </section>
+    <!-- Main content area -->
+    <main>
+      <!-- Primary Colors -->
+      <section>
+        <h2 class="u-font-family-heading u-font-size-h2 u-font-weight-medium">Primary Colors</h2>
+        <table class="c-color-table">
+          <tr>
+            <th>Class Name</th>
+            <th>Hex Code</th>
+            <th>Uses</th>
+            <th>Colour Combinations</th>
+            <th>Colour Contrast Ratio</th>
+          </tr>
+          <tr>
+            <td>bg-primary</td>
+            <td class="u-color-table--primary-background-color">#F5F5F5</td>
+            <td>Background</td>
+            <td class="u-color-table--primary-text-and-background-color">Background and Text</td>
+            <td>9.51:1</td>
+          </tr>
+          <tr>
+            <td>text-primary</td>
+            <td class="u-color-table--primary-text-color">#404040</td>
+            <td>Headings, Body Text</td>
+            <td class="u-color-table--primary-text-and-background-color">Background and Text</td>
+            <td>9.51:1</td>
+          </tr>
+        </table>
+      </section>
 
-    <!-- Secondary Colors -->
-    <section>
-      <h2 class="u-font-family-heading u-font-size-h2 u-font-weight-medium">Secondary Colors</h2>
-      <table class="c-color-table">
-        <tr>
-          <th>Class Name</th>
-          <th>Hex Code</th>
-          <th>Uses</th>
-          <th>Colour Combinations</th>
-          <th>Colour Contrast Ratio</th>
-        </tr>
-        <tr>
-          <td>bg-secondary</td>
-          <td class="u-color-table--secondary-background-color">#FFFFFF</td>
-          <td>Background</td>
-          <td class="u-color-table--secondary-text-and-background-color">Background and Text</td>
-          <td>7.15:1</td>
-        </tr>
-        <tr>
-          <td>text-secondary</td>
-          <td class="u-color-table--secondary-text-color">#2C6330</td>
-          <td>Headings, Body Text</td>
-          <td class="u-color-table--secondary-text-and-background-color">Background and Text</td>
-          <td>7.15:1</td>
-        </tr>
-      </table>
-    </section>
+      <!-- Secondary Colors -->
+      <section>
+        <h2 class="u-font-family-heading u-font-size-h2 u-font-weight-medium">Secondary Colors</h2>
+        <table class="c-color-table">
+          <tr>
+            <th>Class Name</th>
+            <th>Hex Code</th>
+            <th>Uses</th>
+            <th>Colour Combinations</th>
+            <th>Colour Contrast Ratio</th>
+          </tr>
+          <tr>
+            <td>bg-secondary</td>
+            <td class="u-color-table--secondary-background-color">#FFFFFF</td>
+            <td>Background</td>
+            <td class="u-color-table--secondary-text-and-background-color">Background and Text</td>
+            <td>7.15:1</td>
+          </tr>
+          <tr>
+            <td>text-secondary</td>
+            <td class="u-color-table--secondary-text-color">#2C6330</td>
+            <td>Headings, Body Text</td>
+            <td class="u-color-table--secondary-text-and-background-color">Background and Text</td>
+            <td>7.15:1</td>
+          </tr>
+        </table>
+      </section>
 
-    <!-- Accent Colors -->
-    <section>
-      <h2 class="u-font-family-heading u-font-size-h2 u-font-weight-medium">Accent Colors</h2>
-      <table class="c-color-table">
-        <tr>
-          <th>Class Name</th>
-          <th>Hex Code</th>
-          <th>Uses</th>
-          <th>Colour Combinations</th>
-          <th>Colour Contrast Ratio</th>
-        </tr>
-        <tr>
-          <td>accent</td>
-          <td class="u-color-table--accent-color">#941600</td>
-          <td>Highlights, Links</td>
-          <td class="u-color-table--primary-background-and-accent-color">Primary Background and Accent</td>
-          <td>8.11:1</td>
-        </tr>
-      </table>
-    </section>
+      <!-- Accent Colors -->
+      <section>
+        <h2 class="u-font-family-heading u-font-size-h2 u-font-weight-medium">Accent Colors</h2>
+        <table class="c-color-table">
+          <tr>
+            <th>Class Name</th>
+            <th>Hex Code</th>
+            <th>Uses</th>
+            <th>Colour Combinations</th>
+            <th>Colour Contrast Ratio</th>
+          </tr>
+          <tr>
+            <td>accent</td>
+            <td class="u-color-table--accent-color">#941600</td>
+            <td>Highlights, Links</td>
+            <td class="u-color-table--primary-background-and-accent-color">Primary Background and Accent</td>
+            <td>8.11:1</td>
+          </tr>
+        </table>
+      </section>
 
-    <!-- Additional Accent Colors -->
-    <section>
-      <h2 class="u-font-family-heading u-font-size-h2 u-font-weight-medium">Additional Accent Colors</h2>
-      <table class="c-color-table">
-        <tr>
-          <th>Class Name</th>
-          <th>Hex Code</th>
-          <th>Uses</th>
-          <th>Colour Combinations</th>
-          <th>Colour Contrast Ratio</th>
-        </tr>
-        <tr>
-          <td>bg-accent</td>
-          <td class="u-color-table--additional-accent-color">#13575D</td>
-          <td>Highlights, Links</td>
-          <td class="u-color-table--secondary-background-and-additional-accent-color">Secondary Background and
-            Additional Accent
-          </td>
-          <td>8.23:1</td>
-        </tr>
-      </table>
-    </section>
-  </main>
-
+      <!-- Additional Accent Colors -->
+      <section>
+        <h2 class="u-font-family-heading u-font-size-h2 u-font-weight-medium">Additional Accent Colors</h2>
+        <table class="c-color-table">
+          <tr>
+            <th>Class Name</th>
+            <th>Hex Code</th>
+            <th>Uses</th>
+            <th>Colour Combinations</th>
+            <th>Colour Contrast Ratio</th>
+          </tr>
+          <tr>
+            <td>bg-accent</td>
+            <td class="u-color-table--additional-accent-color">#13575D</td>
+            <td>Highlights, Links</td>
+            <td class="u-color-table--secondary-background-and-additional-accent-color">Secondary Background and
+              Additional Accent
+            </td>
+            <td>8.23:1</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+  </div>
   <script src="design-system.js"></script>
 </body>
 
