@@ -136,6 +136,11 @@ ol {
   list-style-type: none;
 }
 
+.u-wrap-text {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 /* Margin */
 .l-m-1 {
   margin: 1rem;
