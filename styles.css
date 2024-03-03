@@ -451,15 +451,6 @@ ol {
   table-layout: fixed;
 }
 
-/* Base styling for all containers */
-.container {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
-}
-
 /* Full-width container class for all screens */
 .container-full-width {
   width: 100%;
@@ -475,14 +466,14 @@ ol {
   min-width: 150px;
 }
 
-/* Apply this class to the parent wrapper when using .footer-bottom */
-.wrapper-flex {
-  display: flex;
-  flex-direction: column;
-}
-
 .u-text-center {
   text-align: center;
+}
+
+.page-wrapper {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* Media query for desktop */
