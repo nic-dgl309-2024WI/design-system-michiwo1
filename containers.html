@@ -26,7 +26,7 @@
       </ul>
     </nav>
   </header>
-  <div class="l-flex-or-block l-mt-6 container-mobile-max">
+  <div class="l-flex-or-block l-mt-6 container-max-width">
     <!-- Sidebar navigation -->
     <aside class="l-sidebar l-p-1 container-for-sidebar" id="sidebar">
       <!-- Use of h1 in aside, but will change if more content is added -->
@@ -81,29 +81,37 @@
     </aside>
     <!-- main content area -->
     <main>
-      <div class="l-flex-or-block">
+      <section>
+        <div class="l-flex-or-block">
+          <div class="l-m-1">
+            <h2>FlexBox</h2>
+            <ul class="u-list-style-type-none">
+              <li>.l-flex: display: flex;</li>
+              <li>.l-flex-or-block: display: block;</li>
+              <li>.l-flex-column: flex-direction: column;</li>
+              <li>.l-flex-row: flex-direction: row;</li>
+              <li>.l-justify-center: justify-content: center;</li>
+              <li>.l-align-center: align-items: center;</li>
+            </ul>
+          </div>
+          <div class="l-m-1">
+            <h2>Grid</h2>
+            <ul class="u-list-style-type-none">
+              <li>.l-grid: display: grid;</li>
+              <li>.l-grid-columns-2: grid-template-columns: repeat(2, 1fr);</li>
+              <li>.l-grid-columns-3: grid-template-columns: repeat(3, 1fr);</li>
+              <li>.l-grid-gap-1: gap: 1rem;</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <ul>
+        <li>.container-full-width: width: 100%;</li>
+        <li>.container-max-width: max-width: 100%;</li>
+      </ul>
+      <section>
 
-        <div class="l-m-1">
-          <h2>FlexBox</h2>
-          <ul class="u-list-style-type-none">
-            <li>.l-flex: display: flex;</li>
-            <li>.l-flex-or-block: display: block;</li>
-            <li>.l-flex-column: flex-direction: column;</li>
-            <li>.l-flex-row: flex-direction: row;</li>
-            <li>.l-justify-center: justify-content: center;</li>
-            <li>.l-align-center: align-items: center;</li>
-          </ul>
-        </div>
-        <div class="l-m-1">
-          <h2>Grid</h2>
-          <ul class="u-list-style-type-none">
-            <li>.l-grid: display: grid;</li>
-            <li>.l-grid-columns-2: grid-template-columns: repeat(2, 1fr);</li>
-            <li>.l-grid-columns-3: grid-template-columns: repeat(3, 1fr);</li>
-            <li>.l-grid-gap-1: gap: 1rem;</li>
-          </ul>
-        </div>
-      </div>
+      </section>
     </main>
   </div>
 
