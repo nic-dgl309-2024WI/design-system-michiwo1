@@ -38,6 +38,7 @@
 
 /* Reset margins */
 body,
+main,
 h1,
 h2,
 h3,
@@ -125,9 +126,14 @@ ol {
   letter-spacing: var(--letter-spacing-body);
 }
 
-/* utility class to remove underline from links */
+/* Utility class to remove underline from links */
 .u-link--none-underline {
   text-decoration: none;
+}
+
+/* Utility class for list */
+.u-list-style-type-none {
+  list-style-type: none;
 }
 
 /* Margin */
