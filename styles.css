@@ -470,32 +470,9 @@ ol {
   max-width: 100%;
 }
 
-/* Utility class for managing min and max content width dynamically */
-.container-min-max {
-  width: 80%;
-  min-width: 100px;
-  max-width: 1000px;
-  margin: 0 auto;
-  border: solid hotpink;
-  text-align: center;
-}
-
 /* Fixed height container */
 .container-for-sidebar {
   min-width: 150px;
-}
-
-/* Full height container */
-.container-full-height {
-  min-height: 100%;
-  border: solid;
-}
-
-/* Footer always on the bottom */
-.footer-bottom {
-  border: solid hotpink;
-  padding: 8px;
-  margin-top: auto;
 }
 
 /* Apply this class to the parent wrapper when using .footer-bottom */
