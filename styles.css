@@ -395,6 +395,11 @@ ol {
   display: flex;
 }
 
+/* This class has flex applied on desktop and block adapted on mobile */
+.l-flex-or-block {
+  display: block;
+}
+
 .l-flex-column {
   flex-direction: column;
 }
@@ -518,5 +523,10 @@ ol {
 
   .u-padding-4 {
     padding: 4rem;
+  }
+
+  /* This class has flex applied on desktop and block adapted on mobile */
+  .l-flex-or-block {
+    display: flex;
   }
 }
