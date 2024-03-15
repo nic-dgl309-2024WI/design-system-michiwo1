@@ -417,6 +417,10 @@ ol {
   justify-content: center;
 }
 
+.l-justify-space-between {
+  justify-content: space-between;
+}
+
 .l-align-center {
   align-items: center;
 }
@@ -468,6 +472,10 @@ ol {
 
 .u-text-center {
   text-align: center;
+}
+
+.u-text-left {
+  text-align: left;
 }
 
 .page-wrapper {
