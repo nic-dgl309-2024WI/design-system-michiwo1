@@ -476,6 +476,12 @@ ol {
   margin-left: auto;
 }
 
+.page-wrapper-for-about-me {
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* Media query for desktop */
 @media only screen and (min-width: 1200px) {
 
