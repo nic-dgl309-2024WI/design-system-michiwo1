@@ -518,12 +518,6 @@ ol {
   margin-left: auto;
 }
 
-.center-block {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 /* Media query for desktop */
 @media only screen and (min-width: 1200px) {
 
@@ -556,5 +550,11 @@ ol {
   /* This class has flex applied on desktop and block adapted on mobile */
   .l-flex-or-block {
     display: flex;
+  }
+
+  .center-block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 }
