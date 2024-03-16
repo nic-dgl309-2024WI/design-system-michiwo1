@@ -109,6 +109,22 @@ ol {
   background-color: var(--clr-secondary-bg);
 }
 
+.u-text-primary {
+  background-color: var(--clr-primary-text);
+}
+
+.u-text-secondary {
+  background-color: var(--clr-secondary-text);
+}
+
+.u-accent {
+  background-color: var(--clr-accent);
+}
+
+.u-additional-accent {
+  background-color: var(--clr-additional-accent);
+}
+
 .u-text-accent {
   color: var(--clr-accent);
 }
@@ -438,8 +454,16 @@ ol {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.l-grid-rows-2 {
+  grid-template-rows: repeat(2, 1fr);
+}
+
 .l-grid-gap-1 {
   gap: 1rem;
+}
+
+.l-grid-gap-2 {
+  gap: 2rem;
 }
 
 /* Position Layout Classes */
@@ -478,6 +502,10 @@ ol {
   text-align: left;
 }
 
+.u-border-1 {
+  border: 1px solid black;
+}
+
 .page-wrapper {
   width: 60%;
   margin-right: auto;
@@ -488,6 +516,12 @@ ol {
   width: 30%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* Media query for desktop */
