@@ -158,8 +158,8 @@ ol {
 }
 
 /* Margin */
-.l-mb-0 {
-  margin-bottom: 0;
+.l-m-0 {
+  margin: 0;
 }
 
 .l-m-1 {
@@ -419,8 +419,16 @@ ol {
   padding-bottom: 2rem;
 }
 
-/* Flexbox Layout Classes */
-.l-flex {
+/* Layout Classes */
+.l-dispaly-none-for-mobile {
+  display: none;
+}
+
+.l-dispaly-block-for-mobile {
+  display: block;
+}
+
+.l-flex-for-mobile {
   display: flex;
 }
 
@@ -531,12 +539,6 @@ ol {
 }
 
 /* ======== Header - Mobile ======== */
-/* layout class for header */
-.l-header-mobile {
-  display: flex;
-  justify-content: space-between;
-}
-
 /* hamburger menu */
 .show {
   display: block;
@@ -563,6 +565,29 @@ ol {
 
 /* Media query for desktop */
 @media only screen and (min-width: 1200px) {
+
+  /* Layout Classes */
+  .l-dispaly-none-for-desktop {
+    display: none;
+  }
+
+  .l-dispaly-block-for-desktop {
+    display: block;
+  }
+
+  .l-flex-for-desktop {
+    display: flex;
+  }
+
+  .l-justify-space-between {
+    justify-content: space-between;
+  }
+
+  /* ======== Header - Desktop ======== */
+  /* hamburger menu */
+  .toggle {
+    display: none;
+  }
 
   /* Position Layout Classes */
   .l-position-fixed {
