@@ -287,6 +287,10 @@ ol {
 }
 
 /* Padding */
+.l-p-05 {
+  padding: 0.5rem;
+}
+
 .l-p-1 {
   padding: 1rem;
 }
@@ -506,6 +510,10 @@ ol {
   border: 1px solid black;
 }
 
+.u-border-bottom-1 {
+  border-bottom: 0.5px solid rgb(187, 187, 187);
+}
+
 .page-wrapper {
   width: 60%;
   margin-right: auto;
@@ -516,6 +524,13 @@ ol {
   width: 30%;
   margin-right: auto;
   margin-left: auto;
+}
+
+/* ======== Header - Mobile ======== */
+/* layout class for header */
+.l-header-mobile {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Media query for desktop */
