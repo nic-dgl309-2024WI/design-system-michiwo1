@@ -158,6 +158,10 @@ ol {
 }
 
 /* Margin */
+.l-mb-0 {
+  margin-bottom: 0;
+}
+
 .l-m-1 {
   margin: 1rem;
 }
@@ -531,6 +535,30 @@ ol {
 .l-header-mobile {
   display: flex;
   justify-content: space-between;
+}
+
+/* hamburger menu */
+.show {
+  display: block;
+  position: absolute;
+  top: 100%;
+  background-color: #248F76;
+  overflow: hidden;
+  width: 100%;
+  left: 0;
+}
+
+.nav-link:hover {
+  background-color: #2fb596;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.nav-link {
+  background-color: #248F76;
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+  border-bottom: 0.6px solid #A1AEB7;
 }
 
 /* Media query for desktop */
