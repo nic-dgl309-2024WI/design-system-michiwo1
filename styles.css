@@ -465,6 +465,10 @@ ol {
   justify-content: space-between;
 }
 
+.l-justify-space-around {
+  justify-content: space-around;
+}
+
 .l-align-center {
   align-items: center;
 }
@@ -654,6 +658,49 @@ ol {
   text-align: center;
   border-radius: 4px;
   margin: 1rem;
+}
+
+/* ======== Favorite Website - Mobile ======== */
+.favorite-website {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.favorite-website h2 {
+  margin: 1rem 0;
+}
+
+.favorite-website ul {
+  list-style: none;
+  padding: 0;
+}
+
+.favorite-website li {
+  list-style-type: none;
+  margin: 1rem 0;
+}
+
+.favorite-website-content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.favorite-website a {
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.favorite-website a:hover,
+a:focus {
+  background-color: #0056b3;
+  text-decoration: none;
+  transform: translateY(-3px);
 }
 
 /* Media query for desktop */
@@ -1046,6 +1093,12 @@ ol {
     display: block;
     width: 30%;
     margin: 2rem auto 0 auto;
+  }
+
+  /* ======== Favorite Website - Desktop ======== */
+  .favorite-website-content {
+    text-align: left;
+    width: 50%;
   }
 
   /* Utility Classes for Margin */
