@@ -662,45 +662,59 @@ ol {
 
 /* ======== Favorite Website - Mobile ======== */
 .favorite-website {
-  text-align: center;
-  margin: 2rem 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
-.favorite-website h2 {
-  margin: 1rem 0;
+.favorite-website-content {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.favorite-website-content h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.favorite-website-content p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1em;
 }
 
 .favorite-website ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .favorite-website li {
-  list-style-type: none;
-  margin: 1rem 0;
-}
-
-.favorite-website-content {
-  padding: 1rem;
-  text-align: center;
+  margin: 10px 0;
 }
 
 .favorite-website a {
   text-decoration: none;
   color: white;
-  background-color: #007bff;
-  display: inline-block;
-  padding: 10px 15px;
-  border-radius: 5px;
-  transition: background-color 0.3s, transform 0.3s;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to right, #007bff, #4c9bfd);
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
 }
 
 .favorite-website a:hover,
 a:focus {
-  background-color: #0056b3;
-  text-decoration: none;
-  transform: translateY(-3px);
+  background: linear-gradient(to right, #0056b3, #3a7bd5);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
 }
 
 /* Media query for desktop */
