@@ -3,24 +3,26 @@ document.querySelector('.toggle').addEventListener('click', function () {
   document.querySelector('nav').classList.toggle('show');
 });
 
-// carousel
-var carousel = document.querySelector('.carousel-images');
-var images = Array.from(carousel.children);
-var prevButton = document.querySelector('.carousel-control.prev');
-var nextButton = document.querySelector('.carousel-control.next');
-var currentIndex = 0;
+//pagination
+document.addEventListener('DOMContentLoaded', function() {
+  changeImageSet(1);
+});
 
-function updateCarousel() {
-  var newTransformValue = -currentIndex * 100 / images.length;
-  carousel.style.transform = 'translateX(' + newTransformValue + '%)';
+function changeImageSet(page) {
+  const imageSets = {
+    1: ["images/square.png", "images/square.png", "images/square.png", "images/square.png"],
+    2: ["images/square.png", "images/square.png", "images/square.png", "images/square.png"],
+    3: ["images/square.png", "images/square.png", "images/square.png", "images/square.png"],
+    4: ["images/square.png", "images/square.png", "images/square.png", "images/square.png"],
+    5: ["images/square.png", "images/square.png", "images/square.png", "images/square.png"],
+    6: ["images/square.png", "images/square.png", "images/square.png", "images/square.png"],
+  };
+
+  const images = document.querySelectorAll('.grid-item img');
+  images.forEach((img, index) => {
+    img.src = imageSets[page][index]; 
+  });
+
+  document.querySelectorAll('.pagination a').forEach(a => a.classList.remove('active'));
+  document.querySelectorAll('.pagination a')[page].classList.add('active');
 }
-
-prevButton.addEventListener('click', function() {
-  currentIndex = (currentIndex - 1 + images.length) % images.length;
-  updateCarousel();
-});
-
-nextButton.addEventListener('click', function() {
-  currentIndex = (currentIndex + 1) % images.length;
-  updateCarousel();
-});
