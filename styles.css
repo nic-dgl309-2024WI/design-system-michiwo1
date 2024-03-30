@@ -632,6 +632,64 @@ ol {
   background-color: #ddd;
 }
 
+/* ======== Other Products - Mobile ======== */
+.carousel {
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 3rem 0;
+}
+
+.carousel__track-container {
+  overflow: hidden;
+}
+
+.carousel__track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel__slide {
+  min-width: 100%;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.carousel__slide {
+  flex: 0 0 100%;
+  opacity: 1;
+}
+
+.carousel__slide img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.carousel__button--left {
+  left: 10px;
+}
+
+.carousel__button--right {
+  right: 10px;
+}
+
+.carousel ul {
+  list-style-type: none;
+}
+
 /* ======== CTA - Mobile ======== */
 .cta-image-size {
   width: 100%;
@@ -641,7 +699,6 @@ ol {
 .cta {
   text-align: center;
   border: #404040 1px solid;
-  margin: 2rem 0;
 }
 
 .cta-container {
@@ -1215,6 +1272,59 @@ footer img {
     text-decoration: none;
     text-align: center;
     border-radius: 4px;
+  }
+
+  /* ======== Other Products - Desktop ======== */
+  .custom-carousel {
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 3rem 0;
+  }
+
+  .carousel-track-wrapper {
+    overflow: hidden;
+  }
+
+  .carousel-list {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel-element {
+    flex: 0 0 25%;
+  }
+
+  .carousel-element img {
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .control-left {
+    left: 10px;
+  }
+
+  .control-right {
+    right: 10px;
+  }
+
+  .carousel-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
 
   /* ======== CTA - Desktop ======== */
