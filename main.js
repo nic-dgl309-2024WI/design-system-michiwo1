@@ -26,3 +26,26 @@ function changeImageSet(page) {
   document.querySelectorAll('.pagination a').forEach(a => a.classList.remove('active'));
   document.querySelectorAll('.pagination a')[page].classList.add('active');
 }
+
+// accordion
+document.addEventListener('DOMContentLoaded', function () {
+  const buttons = document.querySelectorAll('.accordion-button');
+
+  function toggleAccordion() {
+    const itemToggle = this.getAttribute('aria-expanded');
+
+    for (let i = 0; i < buttons.length; i++) {
+      buttons[i].setAttribute('aria-expanded', 'false');
+      buttons[i].nextElementSibling.style.display = 'none';
+      buttons[i].querySelector('.accordion-icon').textContent = '+';
+    }
+
+    if (itemToggle === 'false') {
+      this.setAttribute('aria-expanded', 'true');
+      this.nextElementSibling.style.display = 'block';
+      this.querySelector('.accordion-icon').textContent = '-';
+    }
+  }
+
+  buttons.forEach(button => button.addEventListener('click', toggleAccordion));
+});
