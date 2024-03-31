@@ -1,6 +1,6 @@
 /* hamburger menu */
-document.querySelector('.toggle').addEventListener('click', function () {
-  document.querySelector('nav').classList.toggle('show');
+document.querySelector('.c-nav__toggle').addEventListener('click', function () {
+  document.querySelector('nav').classList.toggle('c-nav__show');
 });
 
 //pagination
