@@ -584,8 +584,7 @@ ol {
 }
 
 /* ======== Hero - Mobile ======== */
-.hero {
-  /* TODO:Change image */
+.c-hero {
   background-image: url(images/square.png);
   background-position: center;
   color: #fff;
@@ -1217,8 +1216,7 @@ footer img {
   }
 
   /* ======== Hero - Desktop ======== */
-  .hero {
-    /* TODO:Change image */
+  .c-hero {
     background-image: url(images/square.png);
     background-size: cover;
     background-position: center;
