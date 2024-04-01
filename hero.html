@@ -6,9 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Demo site</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" type="text/css" href="design-system.css">
   <!-- Font-awesome 4.7.0 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&family=Roboto&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -16,15 +20,7 @@
   <header class="l-header l-position-fixed">
     <div class="l-header-mobile">
       <h1><a href="design-system.html" class="u-link--none-underline">Design System</a></h1>
-      <i class="fa fa-bars" id="hamburger-menu-icon" aria-hidden="true"></i>
-      <i class="fa fa-times" id="close-icon" aria-hidden="true"></i>
     </div>
-    <nav class="c-nav" id="nav">
-      <ul class="c-nav__list">
-        <li><a href="about-me.html" class="u-link--none-underline">About Me</a></li>
-        <li><a href="index.html" class="u-link--none-underline is-active-page">Demo Site</a></li>
-      </ul>
-    </nav>
   </header>
   <div class="l-flex-or-block l-mt-6 container-max-width">
     <!-- Sidebar navigation -->
@@ -79,14 +75,36 @@
         </ul>
       </section>
     </aside>
-    <!-- main content area -->
-    <main>
 
+    <!-- Main content area -->
+    <main class="l-m-2 center-block">
+      <div class="l-my-2">
+        <h2 class="l-my-1">Hero</h2>
+      </div>
+      <div class="l-my-2">
+        <section class="c-hero l-mt-3 l-p-1 u-text-center u-text-primary">
+          <div class="l-mt-6-on-desktop">
+            <h2 class="l-mt-2 u-font-size-h1">Welcome to Outback Nursery</h2>
+            <p class="l-mt-1 u-font-size-body">lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem
+              ipsum,
+              lorem ipsum
+            </p>
+          </div>
+        </section>
+      </div>
+      <div class="l-my-2">
+        <h2>Code</h2>
+        <p class="l-my-1">.c-hero {
+          background-image: url(images/square.png);
+          background-position: center;
+          color: #fff;
+          height: 200px;
+          color: #333;
+          }</p>
+      </div>
     </main>
   </div>
-
-
-  <script src="design-system.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
