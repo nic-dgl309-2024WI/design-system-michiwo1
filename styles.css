@@ -784,7 +784,9 @@ ol {
 /* ======== Contact Form section - Mobile ======== */
 .c-contact {
   text-align: center;
-  margin: 1rem 0;
+  margin: 2rem 0;
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .c-contact__form {
@@ -792,7 +794,6 @@ ol {
   background: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: left;
 }
 
