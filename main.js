@@ -30,8 +30,8 @@ function changeImageSet(page) {
 // carousel
 (function () {
   let currentIndex = 0;
-  const slides = document.querySelectorAll('.carousel__slide');
-  const track = document.querySelector('.carousel__track');
+  const slides = document.querySelectorAll('.c-carousel__slide');
+  const track = document.querySelector('.c-carousel__track');
   const totalSlides = slides.length;
 
   function updateSlidePosition() {
@@ -39,7 +39,7 @@ function changeImageSet(page) {
     track.style.transform = `translateX(${newTransformValue}%)`;
   }
 
-  document.querySelector('.carousel__button--right').addEventListener('click', () => {
+  document.querySelector('.c-carousel__button--right').addEventListener('click', () => {
     if (currentIndex < totalSlides - 1) {
       currentIndex += 1;
     } else {
@@ -48,7 +48,7 @@ function changeImageSet(page) {
     updateSlidePosition();
   });
 
-  document.querySelector('.carousel__button--left').addEventListener('click', () => {
+  document.querySelector('.c-carousel__button--left').addEventListener('click', () => {
     if (currentIndex > 0) {
       currentIndex -= 1;
     } else {
