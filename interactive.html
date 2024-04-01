@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Demo site</title>
-  <link rel="stylesheet" type="text/css" href="design-system.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <!-- Font-awesome 4.7.0 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,16 +19,8 @@
   <!-- Header navigation -->
   <header class="l-header l-position-fixed">
     <div class="l-header-mobile">
-      <h1><a href="index.html" class="u-link--none-underline">Design System</a></h1>
-      <i class="fa fa-bars" id="hamburger-menu-icon" aria-hidden="true"></i>
-      <i class="fa fa-times" id="close-icon" aria-hidden="true"></i>
+      <h1><a href="design-system.html" class="u-link--none-underline">Design System</a></h1>
     </div>
-    <nav class="c-nav" id="nav">
-      <ul class="c-nav__list">
-        <li><a href="about-me.html" class="u-link--none-underline">About Me</a></li>
-        <li><a href="index.html" class="u-link--none-underline">Demo Site</a></li>
-      </ul>
-    </nav>
   </header>
   <div class="l-flex-or-block l-mt-6 container-max-width">
     <!-- Sidebar navigation -->
@@ -49,8 +40,8 @@
         <ul class="c-section__list u-list-style-type-none">
           <li><a href="spacing.html" class="u-link--none-underline">04 Spacing</a></li>
           <li><a href="containers.html" class="u-link--none-underline">05 Containers</a></li>
-          <li>06 Images</li>
-          <li>07 Interactive</li>
+          <li><a href="images.html" class="u-link--none-underline">06 Images</a></li>
+          <li><a href="interactive.html" class="u-link--none-underline">07 Interactive</a></li>
           <li>08 Feedback</li>
         </ul>
       </section>
@@ -88,49 +79,43 @@
     <!-- Main content area -->
     <main class="l-m-2 center-block">
       <div class="l-my-2">
-        <h1 class="l-my-1">Images</h1>
-        <p>These are some of the images used on Outback Nursery's site</p>
+        <h2 class="l-my-1">Interactive</h2>
+        <p>This is a hamburger menu for mobile screens only</p>
       </div>
-
       <div class="l-my-2">
-        <div class="l-my-1">
-          <img class="c-nav__logo-image--size" src="images/logo.png" alt="logo">
-        </div>
-
-        <div class="l-my-2">
-          <img class="c-products__image--size" src="images/square.png" alt="product">
-        </div>
-        <div class="l-my-2">
-          <img class="c-card__image--size" src="images/square.png" alt="card">
-        </div>
-        <div class="l-my-2">
-          <img class="c-cta__image--size" src="images/square.png" alt="cta-image">
-        </div>
+        <nav class="l-dispaly-none-for-mobile l-dispaly-block-for-desktop">
+          <ul class="l-m-0 u-list-style-type-none l-flex-for-desktop">
+            <li><a class="c-nav__link l-flex-or-block l-p-1 u-link--none-underline u-text-left"
+                href="index.html">Home</a>
+            </li>
+            <li><a class="c-nav__link l-flex-or-block l-p-1 u-link--none-underline u-text-left"
+                href="coming-soon.html">About
+                us</a>
+            </li>
+            <li><a class="c-nav__link l-flex-or-block l-p-1 u-link--none-underline u-text-left"
+                href="coming-soon.html">FAQ
+                and
+                GIFT</a></li>
+          </ul>
+        </nav>
+        <a class="c-nav__toggle"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
       </div>
       <div class="l-my-2">
         <h2>Code</h2>
-        <p class="l-my-1">.c-nav__logo-image--size {
-          width: 80px;
-          height: 50px;
-          }</p>
-        <p class="l-my-1">.c-products__image--size {
-          width: 150px;
-          height: 150px;
-          border-radius: 8px;
-          }</p>
-        <p class="l-my-1">.c-card__image--size {
+        <p class="l-my-1">
+          .c-nav__show {
+          display: block;
+          position: absolute;
+          top: 100%;
+          background-color: #248F76;
+          overflow: hidden;
           width: 100%;
-          }
-        </p>
-        <p class="l-my-1">.c-cta__image--size {
-          width: 100%;
-          height: 300px;
-          flex: 1;
+          left: 0;
           }</p>
       </div>
     </main>
   </div>
-  <script src="design-system.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
