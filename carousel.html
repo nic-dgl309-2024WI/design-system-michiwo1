@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo site</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- Font-awesome 4.7.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&family=Roboto&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header navigation -->
+  <header class="l-header l-position-fixed">
+    <div class="l-header-mobile">
+      <h1><a href="design-system.html" class="u-link--none-underline">Design System</a></h1>
+    </div>
+  </header>
+  <div class="l-flex-or-block l-mt-6 container-max-width">
+    <!-- Sidebar navigation -->
+    <aside class="l-sidebar l-p-1 container-for-sidebar" id="sidebar">
+      <!-- Use of h1 in aside, but will change if more content is added -->
+      <section class="c-sidebar__section">
+        <h1>Branding</h1>
+        <ul class="c-section__list u-list-style-type-none">
+          <li><a href="colors.html" class="u-link--none-underline">01 Colors</a></li>
+          <li><a href="typography.html" class="u-link--none-underline">02 Typography</a></li>
+          <li>03 Logo</li>
+        </ul>
+      </section>
+
+      <section class="c-sidebar__section">
+        <h1>Utilities</h1>
+        <ul class="c-section__list u-list-style-type-none">
+          <li><a href="spacing.html" class="u-link--none-underline">04 Spacing</a></li>
+          <li><a href="containers.html" class="u-link--none-underline">05 Containers</a></li>
+          <li><a href="images.html" class="u-link--none-underline">06 Images</a></li>
+          <li><a href="interactive.html" class="u-link--none-underline">07 Interactive</a></li>
+          <li>08 Feedback</li>
+        </ul>
+      </section>
+
+      <section class="c-sidebar__section">
+        <h1>Navigation</h1>
+        <ul class="c-section__list u-list-style-type-none">
+          <li><a href="navbars.html" class="u-link--none-underline">09 Navbars</a></li>
+          <li>10 Breadcrumbs</li>
+          <li><a href="pagination.html" class="u-link--none-underline">11 Pagination</a></li>
+        </ul>
+      </section>
+
+      <section class="c-sidebar__section">
+        <h1>Blocks</h1>
+        <ul class="c-section__list u-list-style-type-none">
+          <li><a href="hero.html" class="u-link--none-underline">12 Hero</a></li>
+          <li><a href="carousel.html" class="u-link--none-underline">13 Carousel</a></li>
+          <li>14 Slats</li>
+          <li>15 Footer</li>
+        </ul>
+      </section>
+
+      <section class="c-sidebar__section">
+        <h1>Components</h1>
+        <ul class="c-section__list u-list-style-type-none">
+          <li>16 Cards</li>
+          <li>17 Forms</li>
+          <li>18 Accordion</li>
+          <li>19 Lists</li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- Main content area -->
+    <main class="l-m-2 center-block">
+      <div class="l-my-2">
+        <h2 class="l-my-1">Carousel</h2>
+      </div>
+      <div class="l-my-2">
+        <div class="c-carousel l-dispaly-none-for-desktop">
+          <h2>We also carry</h2>
+          <button class="c-carousel__button c-carousel__button--left">&lt;</button>
+          <div class="c-carousel__track-container">
+            <ul class="c-carousel__track">
+              <li class="c-carousel__slide current-slide"><img src="images/square-2.png" alt="carousel"></li>
+              <li class="c-carousel__slide"><img src="images/square-2.png" alt="carousel"></li>
+              <li class="c-carousel__slide"><img src="images/square-2.png" alt="carousel"></li>
+              <li class="c-carousel__slide"><img src="images/square-2.png" alt="carousel"></li>
+              <li class="c-carousel__slide"><img src="images/square-2.png" alt="carousel"></li>
+            </ul>
+          </div>
+          <button class="c-carousel__button c-carousel__button--right">&gt;</button>
+          <p class="u-font-family-body l-p-1">lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem
+            ipsum, ipsum, lorem ipsum, lorem
+            ipsumipsum, lorem ipsum, lorem
+            ipsumipsum, lorem ipsum, lorem
+            ipsum
+          </p>
+        </div>
+
+        <div class="c-custom-carousel l-dispaly-none-for-mobile">
+          <h2 class="l-my-1 u-font-size-h2 u-font-family-heading">We also carry</h2>
+          <button class="c-carousel__control c-carousel__control-left">&#10094;</button>
+          <div class="c-carousel__track-wrapper">
+            <ul class="c-carousel__list">
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 1"></li>
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 2"></li>
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 3"></li>
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 4"></li>
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 5"></li>
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 6"></li>
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 7"></li>
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 8"></li>
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 9"></li>
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 10"></li>
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 11"></li>
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 12"></li>
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 13"></li>
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 14"></li>
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 15"></li>
+              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 16"></li>
+            </ul>
+          </div>
+          <button class="c-carousel__control c-carousel__control-right">&#10095;</button>
+          <p class="u-font-family-body l-my-2">lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem
+            ipsumipsum, lorem ipsum, lorem
+            ipsumipsum, lorem ipsum, lorem
+            ipsumipsum, lorem ipsum, lorem
+            ipsum
+          </p>
+        </div>
+      </div>
+      <div class="l-my-2">
+        <h2>Code</h2>
+        <p class="l-my-1">.c-carousel {
+          position: relative;
+          max-width: 100%;
+          text-align: center;
+          background-color: #f8f9fa;
+          border-radius: 8px;
+          padding: 1rem 0;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          margin: 2rem 0;
+          }</p>
+        <p class="l-my-1">.c-carousel__track-container {
+          overflow: hidden;
+          }
+        </p>
+        <p class="l-my-1">.c-carousel__track {
+          display: flex;
+          transition: transform 0.5s ease-in-out;
+          }</p>
+        <p class="l-my-1">.c-carousel__slide {
+          min-width: 100%;
+          transition: opacity 0.5s ease-in-out;
+          opacity: 0;
+          }</p>
+        <p class="l-my-1">.c-carousel__button {
+          position: absolute;
+          top: 40%;
+          transform: translateY(-50%);
+          background-color: rgba(0, 0, 0, 0.5);
+          color: white;
+          border: none;
+          padding: 10px;
+          cursor: pointer;
+          z-index: 100;
+          }</p>
+        <p class="l-my-1">.c-carousel__button--left {
+          left: 10px;
+          }</p>
+      </div>
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
