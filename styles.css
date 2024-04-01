@@ -563,7 +563,7 @@ ol {
 }
 
 /* ======== Header - Mobile ======== */
-.c-nav__logo-image-size {
+.c-nav__logo-image--size {
   width: 80px;
   height: 50px;
 }
@@ -602,7 +602,7 @@ ol {
 }
 
 /* ======== Products - Mobile ======== */
-.c-products__image-size {
+.c-products__image--size {
   width: 150px;
   height: 150px;
   border-radius: 8px;
@@ -1290,7 +1290,7 @@ ol {
     color: #333;
   }
 
-  .c-card__image {
+  .c-card__image--size {
     width: 100%;
   }
 
