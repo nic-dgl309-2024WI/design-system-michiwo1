@@ -637,8 +637,11 @@ ol {
   position: relative;
   max-width: 100%;
   text-align: center;
-  background-color: aliceblue;
-  padding: 2rem 0;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
 }
 
 .c-carousel__track-container {
@@ -668,7 +671,7 @@ ol {
 
 .c-carousel__button {
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
@@ -1318,8 +1321,13 @@ ol {
     position: relative;
     max-width: 100%;
     text-align: center;
-    background-color: aliceblue;
-    padding: 3rem 0;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 3rem;
+    color: #333;
+    padding: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
   }
 
   .c-carousel__track-wrapper {
