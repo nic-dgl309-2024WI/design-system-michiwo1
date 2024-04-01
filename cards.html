@@ -79,75 +79,89 @@
     <!-- Main content area -->
     <main class="l-m-2 center-block">
       <div class="l-my-2">
-        <h2 class="l-my-1">Footer</h2>
+        <h2 class="l-my-1">Cards</h2>
       </div>
       <div class="l-my-2">
-        <footer class="site-footer l-flex-for-desktop l-justify-space-between">
-          <img class="site-footer__logo l-flex-1" src="images/logo.png" alt="logo" />
-          <div class="site-footer__accordion accordion l-flex-1 l-mx-2">
-            <div class="accordion__item">
-              <button id="accordion-button-1" class="accordion__button" aria-expanded="false">
-                <span>Contact us</span>
-                <span class="accordion__icon">+</span>
-              </button>
-              <div class="accordion__content" aria-hidden="true">
-                <ul class="accordion__list">
-                  <li class="accordion__list-item"><a href="coming-soon.html">Contact us</a></li>
-                  <li class="accordion__list-item"><a href="coming-soon.html">Contact us</a></li>
-                  <li class="accordion__list-item"><a href="coming-soon.html">Contact us</a></li>
-                </ul>
-              </div>
+        <div class="l-flex-on-desktop-hide-on-mobile l-justify-space-between">
+          <div class="c-card l-pb-1">
+            <img class="c-card__image--size" src="images/square.png" alt="card">
+            <div class="c-card__content">
+              <h3 class="c-card__title">Card Title</h3>
+              <p class="c-card__text u-font-family-body">lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem
+                ipsum</p>
             </div>
+            <a href="#" class="c-card__button">Learn More</a>
           </div>
-          <div class="site-footer__accordion accordion l-flex-1 l-mx-2">
-            <div class="accordion__item">
-              <button id="accordion-button-2" class="accordion__button" aria-expanded="false">
-                <span>Link</span>
-                <span class="accordion__icon">+</span>
-              </button>
-              <div class="accordion__content" aria-hidden="true">
-                <ul class="accordion__list">
-                  <li class="accordion__list-item"><a href="coming-soon.html">Home</a></li>
-                  <li class="accordion__list-item"><a href="coming-soon.html">About us</a></li>
-                  <li class="accordion__list-item"><a href="coming-soon.html">FAQ and GIFT</a></li>
-                </ul>
-              </div>
+          <div class="c-card">
+            <img class="c-card__image--size" src="images/square.png" alt="card">
+            <div class="c-card__content">
+              <h3 class="c-card__title">Card Title</h3>
+              <p class="c-card__text u-font-family-body">lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem
+                ipsum</p>
             </div>
+            <a href="#" class="c-card__button">Learn More</a>
           </div>
-          <a class="site-footer__icon site-footer__icon--instagram" href="#"><i class="fa fa-instagram fa-3x l-m-2"
-              aria-hidden="true"></i></a>
-          <a class="site-footer__icon site-footer__icon--facebook" href="#"><i
-              class="fa fa-facebook-official fa-3x l-m-2" aria-hidden="true"></i></a>
-        </footer>
+          <div class="c-card">
+            <img class="c-card__image--size" src="images/square.png" alt="card">
+            <div class="c-card__content">
+              <h3 class="c-card__title">Card Title</h3>
+              <p class="c-card__text u-font-family-body">lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem
+                ipsum</p>
+            </div>
+            <a href="#" class="c-card__button">Learn More</a>
+          </div>
+          <div class="c-card">
+            <img class="c-card__image--size" src="images/square.png" alt="card">
+            <div class="c-card__content">
+              <h3 class="c-card__title">Card Title</h3>
+              <p class="c-card__text u-font-family-body">lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem
+                ipsum
+              </p>
+            </div>
+            <a href="#" class="c-card__button">Learn More</a>
+          </div>
+        </div>
       </div>
       <div class="l-my-2">
         <h2>Code</h2>
         <p class="l-my-1">
-          .site-footer {
-          text-align: center;
-          border-top: 1px solid #ddd;
+          .c-card {
+          width: 300px;
+          border: 1px solid #ddd;
+          border-radius: 4px;
           color: #333;
           }
         </p>
         <p class="l-my-1">
-          .site-footer__logo {
-          max-width: 50%;
-          max-height: 50%;
+          .c-card__image--size {
+          width: 100%;
           }
         </p>
         <p class="l-my-1">
-          .site-footer__icon {
+          .c-card__content {
+          padding: 1rem;
+          }
+        </p>
+        <p class="l-my-1">
+          .c-card__title {
+          margin: 0;
+          }
+        </p>
+        <p class="l-my-1">
+          .c-card__text {
+          margin-top: 0.5rem;
+          }
+        </p>
+        <p class="l-my-1">
+          .c-card__button {
+          display: inline-block;
+          margin-top: 1rem;
+          padding: 0.5rem 1rem;
+          background-color: #007BFF;
+          color: #fff;
           text-decoration: none;
-          }
-        </p>
-        <p class="l-my-1">
-          .site-footer__icon--facebook {
-          color: #007bff;
-          }
-        </p>
-        <p class="l-my-1">
-          .site-footer__icon--instagram {
-          color: #C13584;
+          text-align: center;
+          border-radius: 4px;
           }
         </p>
       </div>
