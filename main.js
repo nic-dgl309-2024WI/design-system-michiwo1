@@ -18,13 +18,13 @@ function changeImageSet(page) {
     6: ["images/square.png", "images/square.png", "images/square.png", "images/square.png"],
   };
 
-  const images = document.querySelectorAll('.grid-item img');
+  const images = document.querySelectorAll('.c-products__image-size');
   images.forEach((img, index) => {
     img.src = imageSets[page][index];
   });
 
-  document.querySelectorAll('.pagination a').forEach(a => a.classList.remove('active'));
-  document.querySelectorAll('.pagination a')[page].classList.add('active');
+  document.querySelectorAll('.c-products__pagination--link').forEach(a => a.classList.remove('c-products__pagination--link--active'));
+  document.querySelectorAll('.c-products__pagination--link')[page].classList.add('c-products__pagination--link--active');
 }
 
 // carousel
