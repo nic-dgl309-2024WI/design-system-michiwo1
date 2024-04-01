@@ -774,12 +774,12 @@ ol {
 }
 
 /* ======== Contact Form section - Mobile ======== */
-.contact {
+.c-contact {
   text-align: center;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
-.contact-form {
+.c-contact__form {
   width: 100%;
   background: #fff;
   padding: 20px;
@@ -788,13 +788,13 @@ ol {
   text-align: left;
 }
 
-.form-group {
+.c-form__group {
   margin-bottom: 20px;
 }
 
-.form-group input[type="text"],
-input[type="email"],
-.form-group textarea {
+.c-form__group input[type="text"],
+.c-form__group input[type="email"],
+.c-form__group textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -802,11 +802,11 @@ input[type="email"],
   box-sizing: border-box;
 }
 
-.form-group textarea {
+.c-form__group textarea {
   height: 100px;
 }
 
-.form-group input[type="submit"] {
+.c-form__group input[type="submit"] {
   background: #007bff;
   color: white;
   padding: 10px 15px;
@@ -818,7 +818,7 @@ input[type="email"],
   margin: 2rem auto 0 auto;
 }
 
-.form-group input[type="submit"]:hover {
+.c-form__group input[type="submit"]:hover {
   background: #0056b3;
 }
 
@@ -1359,23 +1359,23 @@ footer img {
   }
 
   /* ======== Contact Form section - Desktop ======== */
-  .contact h2 {
+  .c-contact h2 {
     margin: 2rem 0;
   }
 
-  .contact-form {
+  .c-contact__form {
     border-radius: 0;
     box-shadow: none;
     text-align: center;
   }
 
-  .contact-image-size {
+  .c-contact__image {
     width: 50%;
   }
 
-  .form-group input[type="text"],
-  input[type="email"],
-  .form-group textarea {
+  .c-form__group input[type="text"],
+  .c-contact__form input[type="email"],
+  .c-form__group textarea {
     width: 70%;
   }
 
