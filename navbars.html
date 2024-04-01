@@ -6,9 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Demo site</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" type="text/css" href="design-system.css">
   <!-- Font-awesome 4.7.0 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&family=Roboto&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -16,15 +20,7 @@
   <header class="l-header l-position-fixed">
     <div class="l-header-mobile">
       <h1><a href="design-system.html" class="u-link--none-underline">Design System</a></h1>
-      <i class="fa fa-bars" id="hamburger-menu-icon" aria-hidden="true"></i>
-      <i class="fa fa-times" id="close-icon" aria-hidden="true"></i>
     </div>
-    <nav class="c-nav" id="nav">
-      <ul class="c-nav__list">
-        <li><a href="about-me.html" class="u-link--none-underline">About Me</a></li>
-        <li><a href="index.html" class="u-link--none-underline is-active-page">Demo Site</a></li>
-      </ul>
-    </nav>
   </header>
   <div class="l-flex-or-block l-mt-6 container-max-width">
     <!-- Sidebar navigation -->
@@ -79,14 +75,52 @@
         </ul>
       </section>
     </aside>
-    <!-- main content area -->
-    <main>
 
+    <!-- Main content area -->
+    <main class="l-m-2 center-block">
+      <div class="l-my-2">
+        <h2 class="l-my-1">Navbars</h2>
+        <p>This is Navbars and three links exist</p>
+      </div>
+      <div class="l-my-2">
+        <nav class="l-dispaly-none-for-mobile l-dispaly-block-for-desktop">
+          <ul class="l-m-0 u-list-style-type-none l-flex-for-desktop">
+            <li><a class="c-nav__link l-flex-or-block l-p-1 u-link--none-underline u-text-left"
+                href="index.html">Home</a>
+            </li>
+            <li><a class="c-nav__link l-flex-or-block l-p-1 u-link--none-underline u-text-left"
+                href="coming-soon.html">About
+                us</a>
+            </li>
+            <li><a class="c-nav__link l-flex-or-block l-p-1 u-link--none-underline u-text-left"
+                href="coming-soon.html">FAQ
+                and
+                GIFT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="l-my-2">
+        <h2>Code</h2>
+        <p class="l-my-1">.c-nav__logo-image--size {
+          width: 80px;
+          height: 50px;
+          }</p>
+        <p class="l-my-1">.c-nav__link {
+          background-color: #248F76;
+          color: #fff;
+          transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+          border-bottom: 0.6px solid #A1AEB7;
+          }</p>
+        <p class="l-my-1">.c-nav__link:hover {
+          background-color: #2fb596;
+          color: #fff;
+          transform: scale(1.05);
+          }
+        </p>
+      </div>
     </main>
   </div>
-
-
-  <script src="design-system.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
