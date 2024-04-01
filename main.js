@@ -91,7 +91,7 @@ function changeImageSet(page) {
 
 // accordion
 document.addEventListener('DOMContentLoaded', function () {
-  const buttons = document.querySelectorAll('.accordion-button');
+  const buttons = document.querySelectorAll('.accordion__button');
 
   function toggleAccordion() {
     const itemToggle = this.getAttribute('aria-expanded');
@@ -99,13 +99,13 @@ document.addEventListener('DOMContentLoaded', function () {
     for (let i = 0; i < buttons.length; i++) {
       buttons[i].setAttribute('aria-expanded', 'false');
       buttons[i].nextElementSibling.style.display = 'none';
-      buttons[i].querySelector('.accordion-icon').textContent = '+';
+      buttons[i].querySelector('.accordion__icon').textContent = '+';
     }
 
     if (itemToggle === 'false') {
       this.setAttribute('aria-expanded', 'true');
       this.nextElementSibling.style.display = 'block';
-      this.querySelector('.accordion-icon').textContent = '-';
+      this.querySelector('.accordion__icon').textContent = '-';
     }
   }
 

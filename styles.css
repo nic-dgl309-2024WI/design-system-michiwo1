@@ -823,16 +823,27 @@ ol {
 }
 
 /* ======== Footer section - Mobile ======== */
-footer {
+.site-footer {
   text-align: center;
   padding: 1rem;
   border-top: 1px solid #ddd;
 }
 
+.site-footer__logo {
+  max-width: 50%;
+  max-height: 50%;
+}
 
-footer img {
-  width: 100px;
-  height: 100px;
+.site-footer__icon {
+  text-decoration: none;
+}
+
+.site-footer__icon--facebook {
+  color: #007bff;
+}
+
+.site-footer__icon--instagram {
+  color: #C13584;
 }
 
 .accordion {
@@ -840,14 +851,14 @@ footer img {
   margin: 1rem auto;
 }
 
-.accordion-item {
+.accordion__item {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 5px;
   margin-bottom: 10px;
 }
 
-.accordion-button {
+.accordion__button {
   width: 100%;
   padding: 15px;
   text-align: left;
@@ -865,45 +876,45 @@ footer img {
   font-family: inherit;
 }
 
-.accordion-button .accordion-icon {
+.accordion__button .accordion__icon {
   float: right;
 }
 
-.accordion-content {
+.accordion__content {
   padding: 0 15px;
   display: none;
   border-top: 1px solid #ddd;
 }
 
-.accordion-content ul {
+.accordion__list {
   list-style: none;
   padding: 0;
   margin: 0;
   text-align: left;
 }
 
-.accordion-content li {
+.accordion__list-item {
   padding: 10px 15px;
   border-bottom: 1px solid #ddd;
 }
 
-.accordion-content li:last-child {
+.accordion__list-item:last-child {
   border-bottom: none;
 }
 
-.accordion-content a {
+.accordion__list-item a {
   text-decoration: none;
   color: black;
   transition: color 0.3s ease;
 }
 
-.accordion-content a:hover,
-.accordion-content a:focus {
+.accordion__list-item a:hover,
+.accordion__list-item a:focus {
   color: black;
   text-decoration: underline;
 }
 
-.accordion-content li:hover {
+.accordion__list-item:hover {
   background-color: #f7f7f7;
 }
 
@@ -1205,6 +1216,35 @@ footer img {
     padding-bottom: 2rem;
   }
 
+  /* Utility Classes for Margin */
+  .u-margin-1 {
+    margin: 1rem;
+  }
+
+  .u-margin-4 {
+    margin: 4rem;
+  }
+
+  /* Utility Classes for Padding */
+  .u-padding-1 {
+    padding: 1rem;
+  }
+
+  .u-padding-4 {
+    padding: 4rem;
+  }
+
+  /* This class has flex applied on desktop and block adapted on mobile */
+  .l-flex-or-block {
+    display: flex;
+  }
+
+  .center-block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
   /* ======== Header - Desktop ======== */
   /* hamburger menu */
   .c-nav__toggle {
@@ -1379,32 +1419,9 @@ footer img {
     width: 70%;
   }
 
-  /* Utility Classes for Margin */
-  .u-margin-1 {
-    margin: 1rem;
-  }
-
-  .u-margin-4 {
-    margin: 4rem;
-  }
-
-  /* Utility Classes for Padding */
-  .u-padding-1 {
-    padding: 1rem;
-  }
-
-  .u-padding-4 {
-    padding: 4rem;
-  }
-
-  /* This class has flex applied on desktop and block adapted on mobile */
-  .l-flex-or-block {
-    display: flex;
-  }
-
-  .center-block {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  /* ======== Footer section - Desktop ======== */
+  .site-footer img {
+    max-width: 100px;
+    max-height: 100px;
   }
 }
