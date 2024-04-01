@@ -834,8 +834,8 @@ ol {
 /* ======== Footer section - Mobile ======== */
 .site-footer {
   text-align: center;
-  padding: 1rem;
   border-top: 1px solid #ddd;
+  color: #333;
 }
 
 .site-footer__logo {
