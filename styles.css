@@ -719,9 +719,7 @@ ol {
 }
 
 /* ======== Favorite Website - Mobile ======== */
-.favorite-website {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  max-width: 1200px;
+.c-favorite-website {
   margin: auto;
   padding: 40px;
   background-color: #f8f9fa;
@@ -729,24 +727,24 @@ ol {
   border-radius: 8px;
 }
 
-.favorite-website-content {
+.c-favorite-website__content {
   flex: 1;
   margin-right: 30px;
 }
 
-.favorite-website-content h2 {
+.c-favorite-website__content h2 {
   font-size: 2em;
   color: #333;
   margin-bottom: 0.5em;
 }
 
-.favorite-website-content p {
+.c-favorite-website__content p {
   color: #555;
   line-height: 1.6;
   margin-bottom: 1em;
 }
 
-.favorite-website ul {
+.c-favorite-website__list {
   list-style: none;
   padding: 0;
   display: flex;
@@ -754,11 +752,11 @@ ol {
   align-items: flex-start;
 }
 
-.favorite-website li {
-  margin: 10px 0;
+.c-favorite-website__item {
+  margin: 1rem 0;
 }
 
-.favorite-website a {
+.c-favorite-website__link {
   text-decoration: none;
   color: white;
   background: linear-gradient(to right, #007bff, #4c9bfd);
@@ -768,8 +766,8 @@ ol {
   transition: all 0.2s ease-in-out;
 }
 
-.favorite-website a:hover,
-a:focus {
+.c-favorite-website__link:hover,
+.c-favorite-website__link:focus {
   background: linear-gradient(to right, #0056b3, #3a7bd5);
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
   transform: scale(1.05);
@@ -1324,6 +1322,7 @@ footer img {
   }
 
   /* ======== CTA - Desktop ======== */
+  /* TODO: Fix image size */
   .c-cta__image--size {
     width: 100%;
     height: 200px;
@@ -1354,9 +1353,9 @@ footer img {
   }
 
   /* ======== Favorite Website - Desktop ======== */
-  .favorite-website-content {
+  .c-favorite-website__content {
     text-align: left;
-    width: 50%;
+    max-width: 70%;
   }
 
   /* ======== Contact Form section - Desktop ======== */
