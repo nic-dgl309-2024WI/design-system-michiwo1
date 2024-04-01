@@ -82,62 +82,74 @@
         <h2 class="l-my-1">Carousel</h2>
       </div>
       <div class="l-my-2">
-        <div class="c-carousel l-dispaly-none-for-desktop">
-          <h2>We also carry</h2>
-          <button class="c-carousel__button c-carousel__button--left">&lt;</button>
-          <div class="c-carousel__track-container">
-            <ul class="c-carousel__track">
-              <li class="c-carousel__slide current-slide"><img src="images/square-2.png" alt="carousel"></li>
-              <li class="c-carousel__slide"><img src="images/square-2.png" alt="carousel"></li>
-              <li class="c-carousel__slide"><img src="images/square-2.png" alt="carousel"></li>
-              <li class="c-carousel__slide"><img src="images/square-2.png" alt="carousel"></li>
-              <li class="c-carousel__slide"><img src="images/square-2.png" alt="carousel"></li>
-            </ul>
+        <footer class="site-footer l-flex-for-desktop l-justify-space-between">
+          <img class="site-footer__logo l-flex-1" src="images/logo.png" alt="logo" />
+          <div class="site-footer__accordion accordion l-flex-1 l-mx-2">
+            <div class="accordion__item">
+              <button id="accordion-button-1" class="accordion__button" aria-expanded="false">
+                <span>Contact us</span>
+                <span class="accordion__icon">+</span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <ul class="accordion__list">
+                  <li class="accordion__list-item"><a href="coming-soon.html">Contact us</a></li>
+                  <li class="accordion__list-item"><a href="coming-soon.html">Contact us</a></li>
+                  <li class="accordion__list-item"><a href="coming-soon.html">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <button class="c-carousel__button c-carousel__button--right">&gt;</button>
-          <p class="u-font-family-body l-p-1">lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem
-            ipsum, ipsum, lorem ipsum, lorem
-            ipsumipsum, lorem ipsum, lorem
-            ipsumipsum, lorem ipsum, lorem
-            ipsum
-          </p>
-        </div>
-
-        <div class="c-custom-carousel l-dispaly-none-for-mobile">
-          <h2 class="l-my-1 u-font-size-h2 u-font-family-heading">We also carry</h2>
-          <button class="c-carousel__control c-carousel__control-left">&#10094;</button>
-          <div class="c-carousel__track-wrapper">
-            <ul class="c-carousel__list">
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 1"></li>
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 2"></li>
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 3"></li>
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 4"></li>
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 5"></li>
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 6"></li>
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 7"></li>
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 8"></li>
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 9"></li>
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 10"></li>
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 11"></li>
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 12"></li>
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 13"></li>
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 14"></li>
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 15"></li>
-              <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 16"></li>
-            </ul>
+          <div class="site-footer__accordion accordion l-flex-1 l-mx-2">
+            <div class="accordion__item">
+              <button id="accordion-button-2" class="accordion__button" aria-expanded="false">
+                <span>Link</span>
+                <span class="accordion__icon">+</span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <ul class="accordion__list">
+                  <li class="accordion__list-item"><a href="coming-soon.html">Home</a></li>
+                  <li class="accordion__list-item"><a href="coming-soon.html">About us</a></li>
+                  <li class="accordion__list-item"><a href="coming-soon.html">FAQ and GIFT</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <button class="c-carousel__control c-carousel__control-right">&#10095;</button>
-          <p class="u-font-family-body l-my-2">lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem
-            ipsumipsum, lorem ipsum, lorem
-            ipsumipsum, lorem ipsum, lorem
-            ipsumipsum, lorem ipsum, lorem
-            ipsum
-          </p>
-        </div>
+          <a class="site-footer__icon site-footer__icon--instagram" href="#"><i class="fa fa-instagram fa-3x l-m-2"
+              aria-hidden="true"></i></a>
+          <a class="site-footer__icon site-footer__icon--facebook" href="#"><i
+              class="fa fa-facebook-official fa-3x l-m-2" aria-hidden="true"></i></a>
+        </footer>
       </div>
       <div class="l-my-2">
         <h2>Code</h2>
-        <p class="l-my-1"></p>
+        <p class="l-my-1">
+          .site-footer {
+          text-align: center;
+          border-top: 1px solid #ddd;
+          color: #333;
+          }
+        </p>
+        <p class="l-my-1">
+          .site-footer__logo {
+          max-width: 50%;
+          max-height: 50%;
+          }
+        </p>
+        <p class="l-my-1">
+          .site-footer__icon {
+          text-decoration: none;
+          }
+        </p>
+        <p class="l-my-1">
+          .site-footer__icon--facebook {
+          color: #007bff;
+          }
+        </p>
+        <p class="l-my-1">
+          .site-footer__icon--instagram {
+          color: #C13584;
+          }
+        </p>
       </div>
     </main>
   </div>
