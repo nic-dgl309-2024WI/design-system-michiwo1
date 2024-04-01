@@ -661,7 +661,6 @@ ol {
   vertical-align: middle;
 }
 
-/* TODO: fix button position */
 .c-carousel__button {
   position: absolute;
   top: 50%;
@@ -1297,7 +1296,7 @@ ol {
     margin-top: 0.5rem;
   }
 
-  .c-carousel__button {
+  .c-card__button {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
