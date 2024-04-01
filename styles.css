@@ -594,6 +594,7 @@ ol {
   background-position: center;
   color: #fff;
   height: 200px;
+  color: #333;
 }
 
 /* ======== Products - Mobile ======== */
@@ -1060,7 +1061,7 @@ ol {
     margin-top: 3rem;
   }
 
-  .l-mt-6 {
+  .l-mt-6-on-desktop {
     margin-top: 6rem;
   }
 
