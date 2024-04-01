@@ -125,6 +125,10 @@ ol {
   background-color: var(--clr-additional-accent);
 }
 
+.u-text-color {
+  color: #333;
+}
+
 .u-text-accent {
   color: var(--clr-accent);
 }
@@ -1278,6 +1282,7 @@ ol {
     width: 300px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    color: #333;
   }
 
   .c-card__image {
