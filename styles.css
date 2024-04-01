@@ -663,7 +663,7 @@ ol {
 
 .c-carousel__button {
   position: absolute;
-  top: 45%;
+  top: 50%;
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
@@ -1257,7 +1257,7 @@ footer img {
     margin-top: 0.5rem;
   }
 
-  .card-button {
+  .c-carousel__button {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
@@ -1269,7 +1269,7 @@ footer img {
   }
 
   /* ======== Other Products - Desktop ======== */
-  .custom-carousel {
+  .c-custom-carousel {
     position: relative;
     max-width: 100%;
     text-align: center;
@@ -1277,27 +1277,27 @@ footer img {
     padding: 3rem 0;
   }
 
-  .carousel-track-wrapper {
+  .c-carousel__track-wrapper {
     overflow: hidden;
   }
 
-  .carousel-list {
+  .c-carousel__list {
     display: flex;
     transition: transform 0.5s ease-in-out;
   }
 
-  .carousel-element {
+  .c-carousel__element {
     flex: 0 0 25%;
   }
 
-  .carousel-element img {
+  .c-carousel__element img {
     width: 100%;
     vertical-align: middle;
   }
 
-  .carousel-control {
+  .c-carousel__control {
     position: absolute;
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -1307,15 +1307,15 @@ footer img {
     z-index: 100;
   }
 
-  .control-left {
+  .c-carousel__control-left {
     left: 10px;
   }
 
-  .control-right {
+  .c-carousel__control-right {
     right: 10px;
   }
 
-  .carousel-list {
+  .c-carousel__list {
     list-style-type: none;
     padding: 0;
     margin: 0;

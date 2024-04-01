@@ -61,8 +61,8 @@ function changeImageSet(page) {
 
 (function() {
   let currentSlideIndex = 0;
-  const carouselList = document.querySelector('.carousel-list');
-  const slides = document.querySelectorAll('.carousel-element');
+  const carouselList = document.querySelector('.c-carousel__list');
+  const slides = document.querySelectorAll('.c-carousel__element');
   const totalSlides = slides.length;
   let slideChangeCount = 0; 
 
@@ -75,13 +75,13 @@ function changeImageSet(page) {
     carouselList.style.transform = `translateX(-${targetIndex * 100}%)`;
   }
 
-  document.querySelector('.control-left').addEventListener('click', () => {
+  document.querySelector('.c-carousel__control-left').addEventListener('click', () => {
     currentSlideIndex = (currentSlideIndex > 0) ? currentSlideIndex - 1 : totalSlides - 1;
     moveToSlide(carouselList, currentSlideIndex);
     slideChangeCount = 0;
   });
 
-  document.querySelector('.control-right').addEventListener('click', () => {
+  document.querySelector('.c-carousel__control-right').addEventListener('click', () => {
     currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
     moveToSlide(carouselList, currentSlideIndex);
     slideChangeCount = 0; 
