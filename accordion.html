@@ -79,49 +79,124 @@
     <!-- Main content area -->
     <main class="l-m-2 center-block">
       <div class="l-my-2">
-        <h2 class="l-my-1">Forms</h2>
+        <h2 class="l-my-1">Accordion</h2>
       </div>
       <div class="l-my-2">
-        <div class="c-contact__form">
-          <form>
-            <div class="c-form__group">
-              <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+        <div class="site-footer__accordion accordion l-flex-1 l-mx-2">
+          <div class="accordion__item">
+            <button id="accordion-button-1" class="accordion__button" aria-expanded="false">
+              <span>Contact us</span>
+              <span class="accordion__icon">+</span>
+            </button>
+            <div class="accordion__content" aria-hidden="true">
+              <ul class="accordion__list">
+                <li class="accordion__list-item"><a href="coming-soon.html">Contact us</a></li>
+                <li class="accordion__list-item"><a href="coming-soon.html">Contact us</a></li>
+                <li class="accordion__list-item"><a href="coming-soon.html">Contact us</a></li>
+              </ul>
             </div>
-            <div class="c-form__group">
-              <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+          </div>
+        </div>
+        <div class="site-footer__accordion accordion l-flex-1 l-mx-2">
+          <div class="accordion__item">
+            <button id="accordion-button-2" class="accordion__button" aria-expanded="false">
+              <span>Link</span>
+              <span class="accordion__icon">+</span>
+            </button>
+            <div class="accordion__content" aria-hidden="true">
+              <ul class="accordion__list">
+                <li class="accordion__list-item"><a href="coming-soon.html">Home</a></li>
+                <li class="accordion__list-item"><a href="coming-soon.html">About us</a></li>
+                <li class="accordion__list-item"><a href="coming-soon.html">FAQ and GIFT</a></li>
+              </ul>
             </div>
-            <div class="c-form__group">
-              <input type="email" id="email" name="email" placeholder="Email" required>
-            </div>
-            <div class="c-form__group">
-              <textarea id="message" name="message" placeholder="Message" required></textarea>
-            </div>
-            <div class="c-form__group">
-              <input type="submit" value="Submit">
-            </div>
-          </form>
+          </div>
         </div>
       </div>
       <div class="l-my-2">
         <h2>Code</h2>
         <p class="l-my-1">
-          .c-contact__form {
-          border-radius: 0;
-          box-shadow: none;
-          text-align: center;
+          .accordion {
+          max-width: 600px;
+          margin: 1rem auto;
           }
         </p>
         <p class="l-my-1">
-          .c-contact__image {
-          width: 50%;
+          .accordion__item {
+          background: #fff;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          margin-bottom: 10px;
+          }
+        </p>
+        <p class="l-my-1">
+          .accordion__button {
+          width: 100%;
+          padding: 15px;
+          text-align: left;
+          font-weight: bold;
+          font-size: 16px;
+          background: #f7f7f7;
+          border-radius: 5px;
+          cursor: pointer;
+          border: none;
+          margin: 0;
+          box-sizing: border-box;
+          outline: none;
+          text-decoration: none;
+          color: inherit;
+          font-family: inherit;
+          }
+        </p>
+        <p class="l-my-1">
+          .accordion__button .accordion__icon {
+          float: right;
+          }
+        </p>
+        <p class="l-my-1">
+          .accordion__content {
+          padding: 0 15px;
+          display: none;
+          border-top: 1px solid #ddd;
           }
 
         </p>
         <p class="l-my-1">
-          .c-form__group input[type="text"],
-          .c-contact__form input[type="email"],
-          .c-form__group textarea {
-          width: 70%;
+          .accordion__list {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          text-align: left;
+          }
+        </p>
+        <p class="l-my-1">
+          .accordion__list-item {
+          padding: 10px 15px;
+          border-bottom: 1px solid #ddd;
+          }
+        </p>
+        <p class="l-my-1">
+          .accordion__list-item:last-child {
+          border-bottom: none;
+          }
+        </p>
+        <p class="l-my-1">
+          .accordion__list-item a {
+          text-decoration: none;
+          color: black;
+          transition: color 0.3s ease;
+          }
+        </p>
+        <p class="l-my-1">
+          .accordion__list-item a:hover,
+          .accordion__list-item a:focus {
+          color: black;
+          text-decoration: underline;
+          }
+        </p>
+        <p class="l-my-1">
+          .accordion__list-item:hover {
+          background-color: #f7f7f7;
           }
 
         </p>
