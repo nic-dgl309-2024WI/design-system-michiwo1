@@ -79,45 +79,61 @@
     <!-- Main content area -->
     <main class="l-m-2 center-block">
       <div class="l-my-2">
-        <h2 class="l-my-1">Lists</h2>
+        <h2 class="l-my-1">Breadcrumbs</h2>
       </div>
       <div class="l-my-2">
-        <ul class="c-favorite-website__list">
-          <li class="c-favorite-website__item"><a href="#" class="c-favorite-website__link" target="_blank">lorem
-              ipsum</a></li>
-          <li class="c-favorite-website__item"><a href="#" class="c-favorite-website__link" target="_blank">lorem
-              ipsum</a></li>
-          <li class="c-favorite-website__item"><a href="#" class="c-favorite-website__link" target="_blank">lorem
-              ipsum</a></li>
-          <li class="c-favorite-website__item"><a href="#" class="c-favorite-website__link" target="_blank">lorem
-              ipsum</a></li>
-        </ul>
+        <nav aria-label="Breadcrumb" class="breadcrumb">
+          <ul class="breadcrumb__list">
+            <li class="breadcrumb__item"><a href="#" class="breadcrumb__link">Home</a></li>
+            <li class="breadcrumb__item"><a href="#" class="breadcrumb__link">Navigation</a></li>
+            <li class="breadcrumb__item breadcrumb__item--current">Breadcrumbs</li>
+          </ul>
+        </nav>
         <div class="l-my-2">
           <h2>Code</h2>
 
           <p class="l-my-1">
-            .c-favorite-website__list {
+            .breadcrumb__list {
             list-style: none;
             padding: 0;
             display: flex;
-            flex-direction: column;
-            align-items: flex-start;
+            align-items: center;
             }
           </p>
           <p class="l-my-1">
-            .c-favorite-website__item {
-            margin: 1rem 0;
+            .breadcrumb__item {
+            margin-right: 10px;
             }
           </p>
           <p class="l-my-1">
-            .c-favorite-website__link {
+            .breadcrumb__link {
             text-decoration: none;
-            color: white;
-            background: linear-gradient(to right, #007bff, #4c9bfd);
-            padding: 10px 20px;
-            border-radius: 20px;
-            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-            transition: all 0.2s ease-in-out;
+            color: #0275d8;
+            transition: color 0.3s ease;
+            }
+
+          </p>
+          <p class="l-my-1">
+            .breadcrumb__link:hover {
+            color: #01447e;
+            }
+
+          </p>
+          <p class="l-my-1">
+            .breadcrumb__item::after {
+            content: '>';
+            margin-left: 10px;
+            }
+
+          </p>
+          <p class="l-my-1">
+            .breadcrumb__item--current::after {
+            content: none;
+            }
+          </p>
+          <p class="l-my-1">
+            .breadcrumb__item:last-child {
+            margin-right: 0;
             }
           </p>
         </div>

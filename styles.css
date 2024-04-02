@@ -927,6 +927,41 @@ ol {
   background-color: #f7f7f7;
 }
 
+/* ======== Breadcrumbs ======== */
+.breadcrumb__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb__item {
+  margin-right: 10px;
+}
+
+.breadcrumb__link {
+  text-decoration: none;
+  color: #0275d8;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb__link:hover {
+  color: #01447e;
+}
+
+.breadcrumb__item::after {
+  content: '>';
+  margin-left: 10px;
+}
+
+.breadcrumb__item--current::after {
+  content: none;
+}
+
+.breadcrumb__item:last-child {
+  margin-right: 0;
+}
+
 /* Media query for desktop */
 @media only screen and (min-width: 1200px) {
 
