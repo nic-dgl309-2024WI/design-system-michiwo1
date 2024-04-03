@@ -245,21 +245,28 @@
         <div class="l-flex-for-desktop l-align-center">
           <img class="l-dispaly-none-for-mobile c-contact__image" src="images/square.png" alt="">
           <div class="c-contact__form">
-            <form>
+            <form class="c-contact__form c-form">
               <div class="c-form__group">
-                <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                <label for="first-name" class="c-form__label">First Name</label>
+                <input type="text" id="first-name" name="first-name" class="c-form__input" placeholder="First Name"
+                  required>
               </div>
               <div class="c-form__group">
-                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                <label for="last-name" class="c-form__label">Last Name</label>
+                <input type="text" id="last-name" name="last-name" class="c-form__input" placeholder="Last Name"
+                  required>
               </div>
               <div class="c-form__group">
-                <input type="email" id="email" name="email" placeholder="Email" required>
+                <label for="email" class="c-form__label">Email</label>
+                <input type="email" id="email" name="email" class="c-form__input" placeholder="Email" required>
               </div>
               <div class="c-form__group">
-                <textarea id="message" name="message" placeholder="Message" required></textarea>
+                <label for="message" class="c-form__label">Message</label>
+                <textarea id="message" name="message" class="c-form__textarea" placeholder="Message"
+                  required></textarea>
               </div>
               <div class="c-form__group">
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" class="c-form__submit">
               </div>
             </form>
           </div>

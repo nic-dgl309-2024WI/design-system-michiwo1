@@ -831,6 +831,13 @@ ol {
   background: #0056b3;
 }
 
+.c-form__label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: bold;
+}
+
 /* ======== Footer section - Mobile ======== */
 .site-footer {
   text-align: center;
