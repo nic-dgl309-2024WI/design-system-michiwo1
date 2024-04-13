@@ -564,8 +564,8 @@ ol {
 
 /* ======== Header - Mobile ======== */
 .c-nav__logo-image--size {
-  width: 80px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
 }
 
 .c-nav__link {
@@ -1302,6 +1302,12 @@ ol {
     display: none;
   }
 
+  .c-nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
   /* ======== Hero - Desktop ======== */
   .c-hero {
     background-image: url(images/square.png);
@@ -1317,6 +1323,10 @@ ol {
     top: 0;
     left: 0;
     width: 100%;
+  }
+
+  .l-position-relative {
+    position: relative;
   }
 
   /* ======== Products - Desktop ======== */
