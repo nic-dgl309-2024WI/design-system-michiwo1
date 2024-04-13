@@ -486,6 +486,10 @@ ol {
   display: grid;
 }
 
+.u-grid-column--max-width {
+  max-width: 200px;
+}
+
 .l-grid-on-mobile-hide-on-desktop {
   display: grid;
 }
