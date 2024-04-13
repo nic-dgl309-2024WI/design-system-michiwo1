@@ -566,6 +566,31 @@ ol {
   margin-left: auto;
 }
 
+/* code */
+.c-code-container {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+pre {
+  color: #ccc;
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow-x: auto;
+  border-radius: 4px;
+}
+
+code {
+  font-family: 'Fira Code', 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 1em;
+  line-height: 1.5;
+  white-space: pre;
+}
+
 /* ======== Header - Mobile ======== */
 .c-nav__logo-image--size {
   width: 100px;
