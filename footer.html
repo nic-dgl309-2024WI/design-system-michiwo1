@@ -119,34 +119,47 @@
       </div>
       <div class="l-my-2">
         <h2>Code</h2>
-        <p class="l-my-1">
-          .site-footer {
-          text-align: center;
-          border-top: 1px solid #ddd;
-          color: #333;
-          }
-        </p>
-        <p class="l-my-1">
-          .site-footer__logo {
-          max-width: 50%;
-          max-height: 50%;
-          }
-        </p>
-        <p class="l-my-1">
-          .site-footer__icon {
-          text-decoration: none;
-          }
-        </p>
-        <p class="l-my-1">
-          .site-footer__icon--facebook {
-          color: #007bff;
-          }
-        </p>
-        <p class="l-my-1">
-          .site-footer__icon--instagram {
-          color: #C13584;
-          }
-        </p>
+        <div class="c-code-container">
+          <xmp>
+            <footer class="site-footer l-flex-for-desktop l-justify-space-between">
+              <img class="site-footer__logo l-flex-1" src="images/logo.png" alt="logo" />
+              <div class="site-footer__accordion accordion l-flex-1 l-mx-2">
+                <div class="accordion__item">
+                  <button id="accordion-button-1" class="accordion__button" aria-expanded="false">
+                    <span>Contact us</span>
+                    <span class="accordion__icon">+</span>
+                  </button>
+                  <div class="accordion__content" aria-hidden="true">
+                    <ul class="accordion__list">
+                      <li class="accordion__list-item"><a href="coming-soon.html">Contact us</a></li>
+                      <li class="accordion__list-item"><a href="coming-soon.html">Contact us</a></li>
+                      <li class="accordion__list-item"><a href="coming-soon.html">Contact us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="site-footer__accordion accordion l-flex-1 l-mx-2">
+                <div class="accordion__item">
+                  <button id="accordion-button-2" class="accordion__button" aria-expanded="false">
+                    <span>Link</span>
+                    <span class="accordion__icon">+</span>
+                  </button>
+                  <div class="accordion__content" aria-hidden="true">
+                    <ul class="accordion__list">
+                      <li class="accordion__list-item"><a href="coming-soon.html">Home</a></li>
+                      <li class="accordion__list-item"><a href="coming-soon.html">About us</a></li>
+                      <li class="accordion__list-item"><a href="coming-soon.html">FAQ and GIFT</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <a class="site-footer__icon site-footer__icon--instagram" href="#"><i class="fa fa-instagram fa-3x l-m-2"
+                  aria-hidden="true"></i></a>
+              <a class="site-footer__icon site-footer__icon--facebook" href="#"><i
+                  class="fa fa-facebook-official fa-3x l-m-2" aria-hidden="true"></i></a>
+            </footer>
+          </xmp>
+        </div>
       </div>
     </main>
   </div>
