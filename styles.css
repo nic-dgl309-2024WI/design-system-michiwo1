@@ -571,9 +571,8 @@ ol {
   background-color: #333;
   color: white;
   cursor: pointer;
-  padding: 20px;
-  margin: 20px;
   border-radius: 5px;
+  padding: 1rem;
 }
 
 pre {
