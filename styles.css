@@ -697,6 +697,7 @@ code {
 
 .c-carousel__slide img {
   width: 100%;
+  height: 300px;
   vertical-align: middle;
 }
 
@@ -1430,6 +1431,7 @@ code {
 
   .c-carousel__element img {
     width: 100%;
+    height: 300px;
     vertical-align: middle;
   }
 
