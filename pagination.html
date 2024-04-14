@@ -93,27 +93,23 @@
       </div>
       <div class="l-my-2">
         <h2>Code</h2>
-        <p class="l-my-1">.c-products__pagination {
-          display: flex;
-          justify-content: center;
-          margin-top: 20px;
-          }</p>
-        <p class="l-my-1">.c-products__pagination--link {
-          padding: 8px 16px;
-          margin: 0 4px;
-          border: 1px solid #ddd;
-          color: #000;
-          text-decoration: none;
-          }</p>
-        <p class="l-my-1">.c-products__pagination--link--active {
-          background-color: #007bff;
-          color: white;
-          border: 1px solid #007bff;
-          }
-        </p>
-        <p class="l-my-1">.c-products__pagination--link:hover:not(.active) {
-          background-color: #ddd;
-          }</p>
+        <div class="c-code-container">
+          <pre><code>
+<pre><code>
+  &lt;div class="c-products__pagination l-flex-for-mobile l-justify-center l-mt-1"&gt;
+    &lt;a class="c-products__pagination--link" href="#" onclick="changeImageSet(1)"&gt;&amp;laquo;&lt;/a&gt;
+    &lt;a href="#" onclick="changeImageSet(1)"
+      class="c-products__pagination--link--active c-products__pagination--link"&gt;1&lt;/a&gt;
+    &lt;a class="c-products__pagination--link" href="#" onclick="changeImageSet(2)"&gt;2&lt;/a&gt;
+    &lt;a class="c-products__pagination--link" href="#" onclick="changeImageSet(3)"&gt;3&lt;/a&gt;
+    &lt;a class="c-products__pagination--link" href="#" onclick="changeImageSet(4)"&gt;4&lt;/a&gt;
+    &lt;a class="c-products__pagination--link" href="#" onclick="changeImageSet(5)"&gt;5&lt;/a&gt;
+    &lt;a class="c-products__pagination--link" href="#" onclick="changeImageSet(6)"&gt;6&lt;/a&gt;
+    &lt;a class="c-products__pagination--link" href="#" onclick="changeImageSet(2)"&gt;&amp;raquo;&lt;/a&gt;
+  &lt;/div&gt;
+</code></pre>
+          </code></pre>
+        </div>
       </div>
     </main>
   </div>
