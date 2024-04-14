@@ -622,10 +622,13 @@ code {
 
 /* ======== Hero - Mobile ======== */
 .c-hero {
-  background-image: url(images/square.png);
+  background-image: url(images/hero.jpg);
   background-position: center;
   color: #fff;
-  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  width: 100%;
   color: #333;
 }
 
@@ -1338,7 +1341,7 @@ code {
 
   /* ======== Hero - Desktop ======== */
   .c-hero {
-    background-image: url(images/square.png);
+    background-image: url(images/hero.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
