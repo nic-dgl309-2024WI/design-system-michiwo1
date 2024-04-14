@@ -10,15 +10,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function changeImageSet(page) {
   const imageSets = {
-    1: ["images/square.png", "images/square.png", "images/square.png", "images/square.png"],
-    2: ["images/square.png", "images/square.png", "images/square.png", "images/square.png"],
-    3: ["images/square.png", "images/square.png", "images/square.png", "images/square.png"],
-    4: ["images/square.png", "images/square.png", "images/square.png", "images/square.png"],
-    5: ["images/square.png", "images/square.png", "images/square.png", "images/square.png"],
-    6: ["images/square.png", "images/square.png", "images/square.png", "images/square.png"],
+    1: ["images/product-1.png", "images/product-2.png", "images/product-3.png", "images/product-4.png"],
+    2: ["images/product-1.png", "images/product-1.png", "images/product-1.png", "images/product-1.png"],
+    3: ["images/product-2.png", "images/product-2.png", "images/product-2.png", "images/product-2.png"],
+    4: ["images/product-3.png", "images/product-3.png", "images/product-3.png", "images/product-3.png"],
+    5: ["images/product-4.png", "images/product-4.png", "images/product-4.png", "images/product-4.png"],
+    6: ["images/product-1.png", "images/product-1.png", "images/product-1.png", "images/product-1.png"],
   };
 
-  const images = document.querySelectorAll('.c-products__image-size');
+  const images = document.querySelectorAll('.c-products__image--size');
   images.forEach((img, index) => {
     img.src = imageSets[page][index];
   });
