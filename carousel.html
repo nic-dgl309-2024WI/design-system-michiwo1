@@ -133,43 +133,63 @@
       </div>
       <div class="l-my-2">
         <h2>Code</h2>
-        <p class="l-my-1">.c-carousel {
-          position: relative;
-          max-width: 100%;
-          text-align: center;
-          background-color: #f8f9fa;
-          border-radius: 8px;
-          padding: 1rem 0;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-          margin: 2rem 0;
-          }</p>
-        <p class="l-my-1">.c-carousel__track-container {
-          overflow: hidden;
-          }
-        </p>
-        <p class="l-my-1">.c-carousel__track {
-          display: flex;
-          transition: transform 0.5s ease-in-out;
-          }</p>
-        <p class="l-my-1">.c-carousel__slide {
-          min-width: 100%;
-          transition: opacity 0.5s ease-in-out;
-          opacity: 0;
-          }</p>
-        <p class="l-my-1">.c-carousel__button {
-          position: absolute;
-          top: 40%;
-          transform: translateY(-50%);
-          background-color: rgba(0, 0, 0, 0.5);
-          color: white;
-          border: none;
-          padding: 10px;
-          cursor: pointer;
-          z-index: 100;
-          }</p>
-        <p class="l-my-1">.c-carousel__button--left {
-          left: 10px;
-          }</p>
+        <div class="c-code-container">
+          <xmp>
+            <div class="c-carousel l-dispaly-none-for-desktop">
+              <h2>We also carry</h2>
+              <button class="c-carousel__button c-carousel__button--left">
+                << /button>
+                  <div class="c-carousel__track-container">
+                    <ul class="c-carousel__track">
+                      <li class="c-carousel__slide current-slide"><img src="images/square-2.png" alt="carousel"></li>
+                      <li class="c-carousel__slide"><img src="images/square-2.png" alt="carousel"></li>
+                      <li class="c-carousel__slide"><img src="images/square-2.png" alt="carousel"></li>
+                      <li class="c-carousel__slide"><img src="images/square-2.png" alt="carousel"></li>
+                      <li class="c-carousel__slide"><img src="images/square-2.png" alt="carousel"></li>
+                    </ul>
+                  </div>
+                  <button class="c-carousel__button c-carousel__button--right">></button>
+                  <p class="u-font-family-body l-p-1">lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem
+                    ipsum, ipsum, lorem ipsum, lorem
+                    ipsumipsum, lorem ipsum, lorem
+                    ipsumipsum, lorem ipsum, lorem
+                    ipsum
+                  </p>
+            </div>
+
+            <div class="c-custom-carousel l-dispaly-none-for-mobile">
+              <h2 class="l-my-1 u-font-size-h2 u-font-family-heading">We also carry</h2>
+              <button class="c-carousel__control c-carousel__control-left">&#10094;</button>
+              <div class="c-carousel__track-wrapper">
+                <ul class="c-carousel__list">
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 1"></li>
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 2"></li>
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 3"></li>
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 4"></li>
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 5"></li>
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 6"></li>
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 7"></li>
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 8"></li>
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 9"></li>
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 10"></li>
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 11"></li>
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 12"></li>
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 13"></li>
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 14"></li>
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 15"></li>
+                  <li class="c-carousel__element"><img src="images/square-2.png" alt="Image 16"></li>
+                </ul>
+              </div>
+              <button class="c-carousel__control c-carousel__control-right">&#10095;</button>
+              <p class="u-font-family-body l-my-2">lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem
+                ipsumipsum, lorem ipsum, lorem
+                ipsumipsum, lorem ipsum, lorem
+                ipsumipsum, lorem ipsum, lorem
+                ipsum
+              </p>
+            </div>
+          </xmp>
+        </div>
       </div>
     </main>
   </div>
