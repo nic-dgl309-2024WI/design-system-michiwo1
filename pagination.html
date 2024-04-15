@@ -93,22 +93,22 @@
       </div>
       <div class="l-my-2">
         <h2>Code</h2>
-        <div class="c-code-container">
-          <pre><code>
-<pre><code>
-  &lt;div class="c-products__pagination l-flex-for-mobile l-justify-center l-mt-1"&gt;
-    &lt;a class="c-products__pagination--link" href="#" onclick="changeImageSet(1)"&gt;&amp;laquo;&lt;/a&gt;
-    &lt;a href="#" onclick="changeImageSet(1)"
-      class="c-products__pagination--link--active c-products__pagination--link"&gt;1&lt;/a&gt;
-    &lt;a class="c-products__pagination--link" href="#" onclick="changeImageSet(2)"&gt;2&lt;/a&gt;
-    &lt;a class="c-products__pagination--link" href="#" onclick="changeImageSet(3)"&gt;3&lt;/a&gt;
-    &lt;a class="c-products__pagination--link" href="#" onclick="changeImageSet(4)"&gt;4&lt;/a&gt;
-    &lt;a class="c-products__pagination--link" href="#" onclick="changeImageSet(5)"&gt;5&lt;/a&gt;
-    &lt;a class="c-products__pagination--link" href="#" onclick="changeImageSet(6)"&gt;6&lt;/a&gt;
-    &lt;a class="c-products__pagination--link" href="#" onclick="changeImageSet(2)"&gt;&amp;raquo;&lt;/a&gt;
-  &lt;/div&gt;
-</code></pre>
-          </code></pre>
+        <div class="c-code-container" id="code">
+          <xmp>
+            <div class="c-products__pagination l-flex-for-mobile l-justify-center l-mt-1">
+              <a class="c-products__pagination--link" href="#" onclick="changeImageSet(1)">&laquo;</a>
+              <a c-products__pagination--link href="#" onclick="changeImageSet(1)"
+                class="c-products__pagination--link--active c-products__pagination--link">1</a>
+              <a class="c-products__pagination--link" href="#" onclick="changeImageSet(2)">2</a>
+              <a class="c-products__pagination--link" href="#" onclick="changeImageSet(3)">3</a>
+              <a class="c-products__pagination--link" href="#" onclick="changeImageSet(4)">4</a>
+              <a class="c-products__pagination--link" href="#" onclick="changeImageSet(5)">5</a>
+              <a class="c-products__pagination--link" href="#" onclick="changeImageSet(6)">6</a>
+              <a class="c-products__pagination--link" href="#" onclick="changeImageSet(2)">&raquo;</a>
+            </div>
+          </xmp>
+          <i class="fa fa-clipboard copy-icon" aria-hidden="true" onclick="copyToClipboard()"></i>
+          <span class="copy-message" id="copyMessage">Copied!</span>
         </div>
       </div>
     </main>
