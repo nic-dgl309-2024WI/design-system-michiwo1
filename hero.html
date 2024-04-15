@@ -91,15 +91,21 @@
       </div>
       <div class="l-my-2">
         <h2>Code</h2>
-        <div class="c-code-container">
-          <pre><code>
-&lt;section class="c-hero l-mt-3 l-p-1 u-text-center u-text-primary"&gt;
-  &lt;div class="l-mt-6-on-desktop"&gt;
-    &lt;h2 class="l-mt-2 u-font-size-h1"&gt;Welcome to Outback Nursery&lt;/h2&gt;
-    &lt;p class="l-mt-1 u-font-size-body"&gt;lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-          </code></pre>
+        <div class="c-code-container" id="code">
+          <xmp>
+            <section class="c-hero l-mt-3 l-p-1 u-text-center u-text-primary">
+              <div class="l-mt-6-on-desktop">
+                <h2 class="l-mt-2 u-font-size-h1">Welcome to Outback Nursery</h2>
+                <p class="l-mt-1 u-font-size-body">lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum,
+                  lorem
+                  ipsum,
+                  lorem ipsum
+                </p>
+              </div>
+            </section>
+          </xmp>
+          <i class="fa fa-clipboard copy-icon" aria-hidden="true" onclick="copyToClipboard()"></i>
+          <span class="copy-message" id="copyMessage">Copied!</span>
         </div>
       </div>
     </main>

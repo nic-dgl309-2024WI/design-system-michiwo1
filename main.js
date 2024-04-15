@@ -111,3 +111,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
   buttons.forEach(button => button.addEventListener('click', toggleAccordion));
 });
+
+// code snippet
+function copyToClipboard() {
+  var code = document.getElementById('code').innerText;
+  var textarea = document.createElement('textarea');
+  textarea.textContent = code;
+  textarea.style.position = "fixed";
+  document.body.appendChild(textarea);
+  textarea.select();
+  try {
+    document.execCommand('copy');
+    document.getElementById('copyMessage').style.display = 'block';
+    setTimeout(function () {
+      document.getElementById('copyMessage').style.display = 'none';
+    }, 2000);
+  } catch (ex) {
+    console.warn("Copy to clipboard failed.", ex);
+    return false;
+  } finally {
+    document.body.removeChild(textarea);
+  }
+}
