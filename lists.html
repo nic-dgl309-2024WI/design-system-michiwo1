@@ -90,7 +90,7 @@
         </ul>
         <div class="l-my-2">
           <h2>Code</h2>
-          <div class="c-code-container">
+          <div class="c-code-container" id="code">
             <xmp>
               <ul class="c-favorite-website__list">
                 <li class="c-favorite-website__item"><a href="#" class="c-favorite-website__link" target="_blank">lorem
@@ -103,6 +103,8 @@
                     ipsum</a></li>
               </ul>
             </xmp>
+            <i class="fa fa-clipboard copy-icon" aria-hidden="true" onclick="copyToClipboard()"></i>
+            <span class="copy-message" id="copyMessage">Copied!</span>
           </div>
         </div>
       </div>
