@@ -119,7 +119,7 @@
       </div>
       <div class="l-my-2">
         <h2>Code</h2>
-        <div class="c-code-container">
+        <div class="c-code-container" id="code">
           <xmp>
             <footer class="site-footer l-flex-for-desktop l-justify-space-between">
               <img class="site-footer__logo l-flex-1" src="images/logo.png" alt="logo" />
@@ -159,6 +159,8 @@
                   class="fa fa-facebook-official fa-3x l-m-2" aria-hidden="true"></i></a>
             </footer>
           </xmp>
+          <i class="fa fa-clipboard copy-icon" aria-hidden="true" onclick="copyToClipboard()"></i>
+          <span class="copy-message" id="copyMessage">Copied!</span>
         </div>
       </div>
     </main>
