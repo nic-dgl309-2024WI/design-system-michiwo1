@@ -99,25 +99,27 @@
       </div>
       <div class="l-my-2">
         <h2>Code</h2>
-        <div class="c-code-container">
-          <pre><code>
-  &lt;nav class="l-dispaly-none-for-mobile l-dispaly-block-for-desktop"&gt;
-    &lt;ul class="l-m-0 u-list-style-type-none l-flex-for-desktop"&gt;
-      &lt;li&gt;&lt;a class="c-nav__link l-flex-or-block l-p-1 u-link--none-underline u-text-left"
-          href="index.html"&gt;Home&lt;/a&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a class="c-nav__link l-flex-or-block l-p-1 u-link--none-underline u-text-left"
-          href="coming-soon.html"&gt;About
-          us&lt;/a&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a class="c-nav__link l-flex-or-block l-p-1 u-link--none-underline u-text-left"
-          href="coming-soon.html"&gt;FAQ
-          and
-          GIFT&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/nav&gt;
-  &lt;a class="c-nav__toggle"&gt;&lt;i class="fa fa-bars fa-2x" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;
-</code></pre>
+        <div class="c-code-container" id="code">
+          <xmp>
+            <nav class="l-dispaly-none-for-mobile l-dispaly-block-for-desktop">
+              <ul class="l-m-0 u-list-style-type-none l-flex-for-desktop">
+                <li><a class="c-nav__link l-flex-or-block l-p-1 u-link--none-underline u-text-left"
+                    href="index.html">Home</a>
+                </li>
+                <li><a class="c-nav__link l-flex-or-block l-p-1 u-link--none-underline u-text-left"
+                    href="coming-soon.html">About
+                    us</a>
+                </li>
+                <li><a class="c-nav__link l-flex-or-block l-p-1 u-link--none-underline u-text-left"
+                    href="coming-soon.html">FAQ
+                    and
+                    GIFT</a></li>
+              </ul>
+            </nav>
+            <a class="c-nav__toggle"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+          </xmp>
+          <i class="fa fa-clipboard copy-icon" aria-hidden="true" onclick="copyToClipboard()"></i>
+          <span class="copy-message" id="copyMessage">Copied!</span>
         </div>
       </div>
     </main>
