@@ -576,6 +576,24 @@ ol {
   position: relative;
 }
 
+.image-container {
+  overflow: hidden;
+  display: block;
+  text-decoration: none;
+}
+
+.image-container__image {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-container:hover .image-container__image {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
 xmp {
   font-family: 'Fira Code', 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace;
   font-size: 1em;
